@@ -607,7 +607,7 @@
 
 					<div class="col-md-6 wow bounceInRight">
 
-						<form id="contact-form" role="form">
+						<!--<form id="contact-form" role="form">-->
 
 							<div class="form-group">
 								<label class="sr-only" for="name">Nome</label>
@@ -623,10 +623,33 @@
 								<textarea class="form-control" id="message" name="message" rows="7" placeholder="Sua Mensagem"></textarea>
 							</div>
 
-							<button type="submit" class="btn btn-custom-1">
-								<i class="fas fa-bullhorn icon-before"></i> Entre em contato							</button>
-
-						</form>
+							<button onclick='resgatarValor()' class="btn btn-custom-1">
+								<i class="fas fa-bullhorn icon-before"></i> Entre em contato</button>	
+							
+								<script>  
+									function resgatarValor(){
+										var name = document.getElementById('name').value;
+										var email = document.getElementById('email').value;
+										var message = document.getElementById('message').value;
+										var info = "Nome: " + name + "<br> E-mail: " + email + "<br> Mensagem: " + message;
+										//console.log(name + " " + email + " " + message);
+								
+											Email.send({
+											Host : "mail.menutecnologia.com.br",
+											Username : "suporte2@menutecnologia.com.br",
+											Password : "menu@3036",
+											To : 'wesleyzinho95@gmail.com',
+								
+											From : "suporte2@menutecnologia.com.br",
+											Subject : "entre em contato",
+											Body : info,
+											}).then(
+											message => alert(message)
+											);
+											//alert(name + " " + message);
+									}
+								</script>
+						<!--</form>-->
 
 						<div class="ajax-response"></div>
 
@@ -689,8 +712,9 @@
 	<script src="assets/js/jquery.fitvids.js"></script>
 	<!-- Custom scripts -->
 	<script src="assets/js/custom.js"></script>
-
+	<!-- Custom smtp -->
+	<script src="assets/smtp/smtp.js"></script>
+	
 </body>
 
-<!-- Mirrored from www.luizgustavo.pro.br/?lang=pt by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Apr 2020 16:50:00 GMT -->
 </html>
