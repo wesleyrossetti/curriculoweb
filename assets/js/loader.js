@@ -207,13 +207,13 @@
     setText('contact-title', contact.title);
     setText('contact-subtitle', contact.subtitle);
 
-    var infoHtml =
-      '<li><i class="fas fa-fw fa-map-marker"></i>' + contact.location + '</li>' +
-      '<li><i class="far fa-fw fa-envelope"></i><a href="mailto:' + contact.email + '">' + contact.email + '</a></li>' +
-      '<li><i class="fas fa-globe"></i><a href="' + contact.website + '">' + contact.website + '</a></li>' +
-      '<li><i class="fab fa-fw fa-skype"></i>Skype: <a href="skype:' + contact.skype + '?call">' + contact.skype + '</a></li>' +
-      '<li><i class="fab fa-fw fa-telegram"></i>Telegram: <a href="' + contact.telegram_url + '">' + contact.telegram + '</a></li>' +
-      (contact.whatsapp ? '<li><i class="fab fa-fw fa-whatsapp"></i>WhatsApp: <a href="' + contact.whatsapp_url + '" target="_blank">' + contact.whatsapp + '</a></li>' : '');
+    var infoHtml = '';
+    if (contact.location) infoHtml += '<li><i class="fas fa-fw fa-map-marker"></i>' + contact.location + '</li>';
+    if (contact.email)    infoHtml += '<li><i class="far fa-fw fa-envelope"></i><a href="mailto:' + contact.email + '">' + contact.email + '</a></li>';
+    if (contact.website)  infoHtml += '<li><i class="fas fa-globe"></i><a href="' + contact.website + '">' + contact.website + '</a></li>';
+    if (contact.skype)    infoHtml += '<li><i class="fab fa-fw fa-skype"></i>Skype: <a href="skype:' + contact.skype + '?call">' + contact.skype + '</a></li>';
+    if (contact.telegram) infoHtml += '<li><i class="fab fa-fw fa-telegram"></i>Telegram: <a href="' + contact.telegram_url + '">' + contact.telegram + '</a></li>';
+    if (contact.whatsapp) infoHtml += '<li><i class="fab fa-fw fa-whatsapp"></i>WhatsApp: <a href="' + contact.whatsapp_url + '" target="_blank">' + contact.whatsapp + '</a></li>';
     setHTML('contact-info', infoHtml);
 
     var form = contact.form;
