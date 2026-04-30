@@ -9,6 +9,28 @@
 		$('#preloader').delay(350).fadeOut('slow');
 	});
 
+	/* ---------------------------------------------- /*
+	 * Background image, WOW animations and text rotator
+	 * Registered here (outside ready) so the listener is active
+	 * before loader.js synchronously triggers 'siteDataLoaded'.
+	/* ---------------------------------------------- */
+
+	$(document).on('siteDataLoaded', function(e, data) {
+		var bg = (data && data.intro && data.intro.background_image)
+			? data.intro.background_image
+			: 'assets/images/braga3.jpg';
+		$('#intro').backstretch([bg]);
+
+		$('.rotate').textrotator({
+			animation: 'dissolve',
+			separator: '|',
+			speed: 3000
+		});
+
+		wow = new WOW({ mobile: false });
+		wow.init();
+	});
+
 	$(document).ready(function() {
 
 		$('body').scrollspy({
@@ -28,27 +50,6 @@
 				scrollTop: $(anchor.attr('href')).offset().top
 			}, 1000);
 			e.preventDefault();
-		});
-
-		/* ---------------------------------------------- /*
-		 * Background image, WOW animations and text rotator
-		 * are initialised after loader.js populates the DOM.
-		/* ---------------------------------------------- */
-
-		$(document).on('siteDataLoaded', function(e, data) {
-			var bg = (data && data.intro && data.intro.background_image)
-				? data.intro.background_image
-				: 'assets/images/braga3.jpg';
-			$('#intro').backstretch([bg]);
-
-			$('.rotate').textrotator({
-				animation: 'dissolve',
-				separator: '|',
-				speed: 3000
-			});
-
-			wow = new WOW({ mobile: false });
-			wow.init();
 		});
 
 		/* ---------------------------------------------- /*

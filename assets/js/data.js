@@ -227,9 +227,6 @@ window.siteData = {
     "location": "Distrito Federal, Brasil",
     "email": "wesley_rossetti96@live.com",
     "website": "http://www.wmanti.com.br",
-    "skype": "lgsc2001",
-    "telegram": "@gugabsd",
-    "telegram_url": "https://t.me/gugabsd",
     "whatsapp": "+55 61 99108-0403",
     "whatsapp_url": "https://wa.me/5561991080403",
     "form": {
