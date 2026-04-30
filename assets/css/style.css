@@ -1154,6 +1154,14 @@ textarea.form-control {
 		text-align: left;
 	}
 
+	#profile,
+	#profile .headline,
+	#profile .profile-widget,
+	#profile #profile-bio-title,
+	#profile #profile-bio {
+		text-align: center;
+	}
+
 	#stats .stat,
 	.service,
 	.resume-entry,
@@ -1172,7 +1180,7 @@ textarea.form-control {
 	}
 
 	.widget-social {
-		justify-content: flex-start;
+		justify-content: center;
 	}
 
 	.callout .col-md-9.headline {
