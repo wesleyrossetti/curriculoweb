@@ -87,7 +87,7 @@
 
 		$('#stats').waypoint(function() {
 			$('.timer').each(function() {
-				counter = $(this).attr('data-count'),
+				var counter = $(this).attr('data-count');
 				$(this).delay(6000).countTo({
 					from: 0,
 					to: counter,

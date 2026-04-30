@@ -8,6 +8,54 @@
 
   /* ---------- helpers ---------- */
 
+  function isPlainObject(value) {
+    return value && typeof value === 'object' && !Array.isArray(value);
+  }
+
+  function mergeValue(targetValue, sourceValue) {
+    if (Array.isArray(targetValue) && Array.isArray(sourceValue)) {
+      var maxLength = Math.max(targetValue.length, sourceValue.length);
+      var mergedArray = [];
+      var i;
+
+      for (i = 0; i < maxLength; i++) {
+        if (typeof sourceValue[i] === 'undefined') {
+          mergedArray[i] = targetValue[i];
+        } else if (typeof targetValue[i] === 'undefined') {
+          mergedArray[i] = sourceValue[i];
+        } else {
+          mergedArray[i] = mergeValue(targetValue[i], sourceValue[i]);
+        }
+      }
+
+      return mergedArray;
+    }
+
+    if (isPlainObject(targetValue) && isPlainObject(sourceValue)) {
+      return deepMerge(targetValue, sourceValue);
+    }
+
+    return sourceValue;
+  }
+
+  function deepMerge(target, source) {
+    Object.keys(source || {}).forEach(function (key) {
+      var sourceValue = source[key];
+      target[key] = mergeValue(target[key], sourceValue);
+    });
+    return target;
+  }
+
+  function clone(value) {
+    return JSON.parse(JSON.stringify(value));
+  }
+
+  function getCurrentLanguage(data) {
+    var params = new URLSearchParams(window.location.search);
+    var lang = params.get('lang') || data.default_language || 'pt';
+    return (data.translations && data.translations[lang]) ? lang : (data.default_language || 'pt');
+  }
+
   function setText(id, text) {
     var el = document.getElementById(id);
     if (el) el.textContent = text;
@@ -34,6 +82,7 @@
     var auth = document.querySelector('meta[name="author"]');
     if (desc) desc.setAttribute('content', meta.description);
     if (auth) auth.setAttribute('content', meta.author);
+    document.documentElement.lang = meta.lang || 'pt-BR';
     setText('preloader-name', meta.preloader_name || meta.title);
   }
 
@@ -44,8 +93,14 @@
       return '<li><a href="' + l.href + '">' + l.label + '</a></li>';
     }).join('');
 
+    var currentUrl = new URL(window.location.href);
     linksHtml += navbar.languages.map(function (l) {
-      return '<li><a href="' + l.href + '" title="' + l.title + '">' +
+      var languageUrl = l.href;
+      if (!languageUrl && l.code) {
+        currentUrl.searchParams.set('lang', l.code);
+        languageUrl = currentUrl.pathname + currentUrl.search + currentUrl.hash;
+      }
+      return '<li><a href="' + languageUrl + '" title="' + l.title + '">' +
         '<img src="' + l.img + '" alt="' + l.alt + '" /></a></li>';
     }).join('');
 
@@ -60,13 +115,6 @@
 
     var scrollEl = document.querySelector('#intro .mouse-icon-link');
     if (scrollEl) scrollEl.setAttribute('href', intro.scroll_target || '#profile');
-  }
-
-  function populateContactBar(bar) {
-    setHTML('contact-bar-email',
-      '<a href="mailto:' + bar.email + '">' + bar.email + '</a>');
-    setText('contact-bar-gtalk', 'Gtalk: ' + bar.gtalk);
-    setText('contact-bar-location', bar.location);
   }
 
   function populateProfile(p) {
@@ -89,7 +137,7 @@
     // Social widget
     var socialHtml = '<h3>' + p.social_title + '</h3><ul class="widget-social">';
     p.social.forEach(function (s) {
-      socialHtml += '<li><a href="' + s.url + '"><i class="' + s.icon + '"></i></a></li>';
+      socialHtml += '<li><a href="' + s.url + '" target="_blank" rel="noreferrer noopener"><i class="' + s.icon + '"></i></a></li>';
     });
     socialHtml += '</ul>';
     setHTML('profile-social', socialHtml);
@@ -108,7 +156,7 @@
       div.innerHTML =
         '<div class="stat"><div class="stat-icon">' +
         '<h2><i class="' + item.icon + ' hidden-xs"></i>' +
-        '<span class="timer" data-to="' + item.value + '"></span>' + item.suffix + '</h2>' +
+        '<span class="timer" data-count="' + item.value + '"></span>' + item.suffix + '</h2>' +
         '</div><h3>' + item.label + '</h3></div>';
       row.appendChild(div);
     });
@@ -122,27 +170,21 @@
     if (!container) return;
 
     var html = '';
-    services.items.forEach(function (item, i) {
-      if (i % 3 === 0) {
-        if (i > 0) html += '</div>'; // close previous row
-        html += '<div class="row">';
-      }
+    services.items.forEach(function (item) {
       html +=
-        '<div class="col-sm-4 wow bounceInUp">' +
-        '<div class="service">' +
-        '<div class="icon"><i class="' + item.icon + '"></i></div>' +
-        '<h4>' + item.title + '</h4>' +
-        '<div class="text"><p>' + item.description + '</p></div>' +
-        '</div></div>';
+        '<article class="service wow bounceInUp">' +
+          '<div class="icon"><i class="' + item.icon + '"></i></div>' +
+          '<h4>' + item.title + '</h4>' +
+          '<div class="text"><p>' + item.description + '</p></div>' +
+        '</article>';
     });
-    if (services.items.length) html += '</div>';
     container.innerHTML = html;
   }
 
   function populateCurrentStatus(cs) {
     setText('status-section-title', cs.section_title);
     setHTML('status-headline',
-      cs.headline + ' <a href="' + cs.company_url + '" target="_blank">' + cs.company + '</a>');
+      cs.headline + ' <a href="' + cs.company_url + '" target="_blank" rel="noreferrer noopener">' + cs.company + '</a>');
     setText('status-description', cs.description);
 
     var cta = document.getElementById('status-cta');
@@ -159,17 +201,18 @@
 
     // Education
     var eduHtml = '';
-    resume.education.forEach(function (edu, i) {
-      var offset = i > 0 ? 'col-md-offset-3 ' : '';
+    resume.education.forEach(function (edu) {
       eduHtml +=
-        '<div class="' + offset + 'col-md-6 col-sm-8 resume-item wow bounceInUp">' +
-        '<h4>' + edu.degree + '</h4>' +
-        '<p>' + edu.description + '</p>' +
-        '<hr class="hidden-xs"></div>' +
-        '<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">' +
-        '<h4><i class="fas fa-suitcase"></i> ' + edu.org + '</h4>' +
-        '<i class="fas fa-calendar"></i> ' + edu.period +
-        '<hr class="visible-xs"></div>';
+        '<div class="resume-entry">' +
+          '<div class="resume-place wow bounceInLeft">' +
+            '<h4><i class="fas fa-suitcase"></i> ' + edu.org + '</h4>' +
+            '<i class="fas fa-calendar"></i> ' + edu.period +
+          '</div>' +
+          '<div class="resume-item wow bounceInRight">' +
+            '<h4>' + edu.degree + '</h4>' +
+            '<p>' + edu.description + '</p>' +
+          '</div>' +
+        '</div>';
     });
     setHTML('resume-education-items', eduHtml);
 
@@ -185,20 +228,24 @@
         ? '<ul>' + exp.items.map(function (it) { return '<li>' + it + '</li>'; }).join('') + '</ul>'
         : '';
       expHtml +=
-        '<div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp">' +
-        '<h4>' + exp.title + '</h4>' + desc + items +
-        '<hr class="hidden-xs"></div>' +
-        '<div class="col-md-3 col-sm-4 resume-place wow bounceInRight">' +
-        '<h4><i class="fas fa-suitcase"></i> ' + exp.company + '</h4>' +
-        '<i class="fas fa-calendar"></i> ' + exp.period + '<br />' +
-        '<i class="fas fa-map-marker"></i> ' + exp.location +
-        '<hr class="visible-xs"></div>';
+        '<div class="resume-entry">' +
+          '<div class="resume-place wow bounceInLeft">' +
+            '<h4><i class="fas fa-suitcase"></i> ' + exp.company + '</h4>' +
+            '<i class="fas fa-calendar"></i> ' + exp.period + '<br />' +
+            '<i class="fas fa-map-marker"></i> ' + exp.location +
+          '</div>' +
+          '<div class="resume-item wow bounceInRight">' +
+            '<h4>' + exp.title + '</h4>' + desc + items +
+          '</div>' +
+        '</div>';
     });
     setHTML('resume-experience-items', expHtml);
 
     var cvBtn = document.getElementById('resume-cv-download');
     if (cvBtn) {
       cvBtn.setAttribute('href', resume.cv_download_url);
+      cvBtn.setAttribute('target', '_blank');
+      cvBtn.setAttribute('rel', 'noreferrer noopener');
       cvBtn.innerHTML = '<i class="fas fa-download icon-before"></i> ' + resume.cv_download_label;
     }
   }
@@ -210,9 +257,9 @@
     var infoHtml = '';
     if (contact.location) infoHtml += '<li><i class="fas fa-fw fa-map-marker"></i>' + contact.location + '</li>';
     if (contact.email)    infoHtml += '<li><i class="far fa-fw fa-envelope"></i><a href="mailto:' + contact.email + '">' + contact.email + '</a></li>';
-    if (contact.website)  infoHtml += '<li><i class="fas fa-globe"></i><a href="' + contact.website + '">' + contact.website + '</a></li>';
+    if (contact.website)  infoHtml += '<li><i class="fas fa-globe"></i><a href="' + contact.website + '" target="_blank" rel="noreferrer noopener">' + contact.website + '</a></li>';
     if (contact.skype)    infoHtml += '<li><i class="fab fa-fw fa-skype"></i>Skype: <a href="skype:' + contact.skype + '?call">' + contact.skype + '</a></li>';
-    if (contact.telegram) infoHtml += '<li><i class="fab fa-fw fa-telegram"></i>Telegram: <a href="' + contact.telegram_url + '">' + contact.telegram + '</a></li>';
+    if (contact.telegram) infoHtml += '<li><i class="fab fa-fw fa-telegram"></i>Telegram: <a href="' + contact.telegram_url + '" target="_blank" rel="noreferrer noopener">' + contact.telegram + '</a></li>';
     if (contact.whatsapp) infoHtml += '<li><i class="fab fa-fw fa-whatsapp"></i>WhatsApp: <a href="' + contact.whatsapp_url + '" target="_blank">' + contact.whatsapp + '</a></li>';
     setHTML('contact-info', infoHtml);
 
@@ -232,22 +279,35 @@
   }
 
   function populateFooter(footer) {
-    setText('footer-copyright', footer.copyright);
+    var year = new Date().getFullYear();
+    var copyright = (footer.copyright || '').replace(/\b20\d{2}\b/, String(year));
+    setText('footer-copyright', copyright);
   }
 
   /* ---------- main ---------- */
 
   // Usa window.siteData definido por data.js (funciona em file:// e https://)
-  var data = window.siteData;
-  if (!data) {
+  var rawData = window.siteData;
+  var data;
+  if (!rawData) {
     console.error('[loader.js] window.siteData não encontrado. Verifique se data.js está carregado.');
     return;
+  }
+
+  var lang = getCurrentLanguage(rawData);
+  data = clone(rawData);
+  if (rawData.translations && rawData.translations[lang]) {
+    data = deepMerge(data, rawData.translations[lang]);
+  }
+  if (data.navbar && data.navbar.languages) {
+    data.navbar.languages = data.navbar.languages.map(function (item) {
+      return clone(item);
+    });
   }
 
   populateMeta(data.meta);
   populateNavbar(data.navbar);
   populateIntro(data.intro);
-  populateContactBar(data.contact_bar);
   populateProfile(data.profile);
   populateStats(data.stats);
   populateServices(data.services);

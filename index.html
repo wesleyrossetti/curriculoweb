@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -100,43 +100,6 @@
 
 		<!-- Intro section end -->
 
-		<!-- Profile contact callout section -->
-
-		<section id="profile-contact">
-
-			<div class="container">
-
-				<div class="row">
-
-					<div class="col-sm-4 wow bounceInLeft">
-						<div class="profile-item">
-							<i class="fas fa-envelope"></i>
-							<h5 id="contact-bar-email"></h5>
-						</div>
-					</div>
-
-					<div class="col-sm-4 wow bounceInUp">
-						<div class="profile-item">
-							<i class="fab fa-google"></i>
-							<h5 id="contact-bar-gtalk"></h5>
-						</div>
-					</div>
-
-					<div class="col-sm-4 wow bounceInRight">
-						<div class="profile-item">
-							<i class="fas fa-map-marker"></i>
-							<h5 id="contact-bar-location"></h5>
-						</div>
-					</div>
-
-				</div><!-- .row -->
-
-			</div><!-- .container -->
-
-		</section>
-
-		<!-- Profile contact callout section -->
-
 		<!-- Profile section start -->
 
 		<section id="profile" class="section">
@@ -231,18 +194,22 @@
 
 				<!-- Education -->
 				<div class="row resume-items">
-					<div class="col-md-3 wow bounceInLeft">
+					<div class="col-md-12 wow bounceInLeft resume-section-heading">
 						<h3 id="resume-education-title"></h3>
 					</div>
-					<div id="resume-education-items" style="display:contents"></div>
+					<div class="col-md-12">
+						<div class="resume-group" id="resume-education-items"></div>
+					</div>
 				</div>
 
 				<!-- Experience -->
 				<div class="row resume-items">
-					<div class="col-md-3 wow bounceInLeft">
+					<div class="col-md-12 wow bounceInLeft resume-section-heading">
 						<h3 id="resume-experience-title"></h3>
 					</div>
-					<div id="resume-experience-items" style="display:contents"></div>
+					<div class="col-md-12">
+						<div class="resume-group" id="resume-experience-items"></div>
+					</div>
 				</div>
 
 				<div class="row">
@@ -269,19 +236,21 @@
 					</div>
 
 					<div class="col-md-6 wow bounceInRight">
-						<div class="form-group">
-							<label class="sr-only" for="name">Nome</label>
-							<input type="text" id="name" class="form-control" name="name" placeholder="">
+						<div class="contact-form-card">
+							<div class="form-group">
+								<label class="sr-only" for="name">Nome</label>
+								<input type="text" id="name" class="form-control" name="name" placeholder="">
+							</div>
+							<div class="form-group">
+								<label class="sr-only" for="email">E-mail</label>
+								<input type="email" id="email" class="form-control" name="email" placeholder="">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" id="message" name="message" rows="7" placeholder=""></textarea>
+							</div>
+							<button id="contact-submit" onclick="sendContactForm()" class="btn btn-custom-1"></button>
+							<div class="ajax-response"></div>
 						</div>
-						<div class="form-group">
-							<label class="sr-only" for="email">E-mail</label>
-							<input type="email" id="email" class="form-control" name="email" placeholder="">
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" id="message" name="message" rows="7" placeholder=""></textarea>
-						</div>
-						<button id="contact-submit" onclick="sendContactForm()" class="btn btn-custom-1"></button>
-						<div class="ajax-response"></div>
 					</div>
 				</div>
 			</div>

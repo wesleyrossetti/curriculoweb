@@ -1,9 +1,12 @@
 window.siteData = {
+  "default_language": "pt",
+
   "meta": {
     "title": "Wesley Rossetti - Resumo Profissional",
     "description": "Currículo profissional de Wesley Rossetti",
     "author": "Wesley Rossetti",
-    "preloader_name": "Wesley Rossetti"
+    "preloader_name": "Wesley Rossetti",
+    "lang": "pt-BR"
   },
 
   "navbar": {
@@ -17,13 +20,13 @@ window.siteData = {
     ],
     "languages": [
       {
-        "href": "index923c.html?lang=pt",
+        "code": "pt",
         "title": "Português",
         "img": "assets/images/pt.png",
         "alt": "Linguagem Português Brasil"
       },
       {
-        "href": "index9ed2.html?lang=en",
+        "code": "en",
         "title": "English Language",
         "img": "assets/images/us.png",
         "alt": "English Language"
@@ -240,5 +243,165 @@ window.siteData = {
 
   "footer": {
     "copyright": "©2020 Wesley Rossetti, All Rights Reserved."
+  },
+
+  "translations": {
+    "en": {
+      "meta": {
+        "title": "Wesley Rossetti - Professional Summary",
+        "description": "Professional resume of Wesley Rossetti",
+        "lang": "en"
+      },
+      "navbar": {
+        "links": [
+          { "label": "Home", "href": "#intro" },
+          { "label": "Profile", "href": "#profile" },
+          { "label": "Services", "href": "#services" },
+          { "label": "Resume", "href": "#resume" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      },
+      "intro": {
+        "greeting": "Hi, I am Wesley Rossetti",
+        "roles": ["IT Consultant", "Network Expertise", "BSD/Linux/Unix", "DevOps"]
+      },
+      "profile": {
+        "subtitle": "IT Consultant - Back-end Developer (Python/PHP/JS/C++) - Network Expertise - DevOps - Linux",
+        "bio_title": "Professional Profile",
+        "bio": "From MSX to today's virtual environments, I have been through a lot: coding, troubleshooting, structured cabling, climbing buildings to install wireless antennas, unlocking hubs and switches in hallways, facing freezing datacenters without a coat, and traveling everywhere to support network environments from the unusual to the excellent... (to be continued)",
+        "skills_title": "Skills",
+        "social_title": "Social Profiles"
+      },
+      "stats": {
+        "title": "My Statistics",
+        "items": [
+          { "label": "Cups of Coffee" },
+          { "label": "Lines of Code" },
+          { "label": "Installed Servers" }
+        ]
+      },
+      "services": {
+        "title": "What I do best!",
+        "subtitle": "My work.",
+        "items": [
+          {
+            "title": "IT Consulting",
+            "description": "With more than 15 years of experience in computer networks and open-source software solutions, I have built a broad view of how IT works in practice and use that perspective to meet project demands, treating each one as a daily challenge for achievement and learning."
+          },
+          {
+            "title": "Development",
+            "description": "My first computer book was a BASIC programming book for MSX, and since then I have gained experience across many programming environments, first on desktop and now in the cloud. Although I have worked with PHP since version 3, in recent years I have worked heavily with Python, a language I fell in love with at first sight, ideal for front-end work and *nix systems management."
+          },
+          {
+            "title": "Linux and BSD",
+            "description": "My first experience with Linux was Slackware 3.5, and since then it has remained a challenging passion. I followed the evolution of the kernel and its related distributions, and in parallel I got to know the 'devilish' FreeBSD system, also going through OpenBSD and NetBSD, but ultimately consolidating around FreeBSD and earning the nickname 'gugabsd'."
+          },
+          {
+            "title": "Network Services",
+            "description": "Through my BSD/Linux experience, I worked in many environments and developed expertise managing network productivity tools, starting with Apache and Bind, moving through Qmail and Postfix, customizing proxy environments with Squid, and making Mr. Gates nervous by implementing heterogeneous environments with Samba and company."
+          },
+          {
+            "title": "Free Software Community",
+            "description": "From the beginning, when I learned the concept of ratio on old BBS systems, I learned to share my work and knowledge. In that spirit, I have always tried to contribute my best. Whenever I needed to truly learn and understand a tool, I sought its developers so I could stay close to its updates until I had enough experience to build my own open projects."
+          },
+          {
+            "title": "Orchestration and Virtual Environments (DevOps)",
+            "description": "Today, with the rise of cloud computing and the need to distribute environments, there is a strong need for tools that unify all this management. That is where solutions such as Puppet, Chef, and Ansible come in, along with our friend DevOps."
+          }
+        ]
+      },
+      "current_status": {
+        "section_title": "Current Status",
+        "headline": "Currently working hard at",
+        "description": "I am currently working as a Network Administrator while also taking on DevOps responsibilities, expanding horizons for new projects in order to meet the company's demands.",
+        "cta_label": "Get in touch"
+      },
+      "resume": {
+        "title": "Resume",
+        "subtitle": "Professional Summary",
+        "education_title": "Education",
+        "education": [
+          {
+            "degree": "Computer Science",
+            "description": "Grande Rio University - Undergraduate Computer Science program",
+            "period": "1999 - Paused"
+          },
+          {
+            "degree": "Red Hat Certified Technician (RHCT)",
+            "description": "RHCT Certificate number: 604006130599966"
+          }
+        ],
+        "experience_title": "Experience",
+        "experience": [
+          {
+            "items": [
+              "Virtualization (VMWare)",
+              "Monitoring (Centreon)",
+              "Systems automation",
+              "Development and support",
+              "Embedded solutions (Raspberry, ARM in general)",
+              "Docker orchestration",
+              "Databases (SQL and NoSQL)",
+              "Cluster solutions",
+              "Network management",
+              "Free software in general (Linux & BSD)"
+            ]
+          },
+          {
+            "title": "Director / Consultant",
+            "description": "Company operating in the IT consulting market for networks and software, with an emphasis on free software and license-saving solutions. Working as an integrator and partner in network and software project development solutions.",
+            "items": [
+              "Programming and automation (C, C++, Python, PHP)",
+              "Network management",
+              "Free software in general",
+              "Heterogeneous environments (mainly SAMBA4 - Active Directory)",
+              "Environment virtualization"
+            ]
+          },
+          {
+            "title": "Infrastructure Coordinator",
+            "items": [
+              "Programming and automation (C, C++, Python, PHP)",
+              "Network management",
+              "Free software in general",
+              "Heterogeneous environments (mainly SAMBA4 - Active Directory)",
+              "Environment virtualization"
+            ]
+          },
+          {
+            "description": "BSD Perimeter was founded in late 2006 by Chris Buechler and Scott Ullrich, the founders of pfSense, to bring commercial backing and support to the pfSense and m0n0wall projects.",
+            "items": [
+              "Development in PHP/C/C++",
+              "Open-source and commercial projects",
+              "pfSense code support",
+              "Network project development",
+              "Testing and development with new technologies"
+            ]
+          },
+          {
+            "title": "Linux/BSD/Unix/Network Consultant",
+            "items": [
+              "CISCO asset administration",
+              "BSD/Cisco firewall and security",
+              "Project planning and execution",
+              "On-site support for corporate clients"
+            ]
+          }
+        ],
+        "cv_download_label": "Download CV"
+      },
+      "contact": {
+        "title": "Get in touch",
+        "subtitle": "I will be glad to reply to your email.",
+        "location": "Federal District, Brazil",
+        "form": {
+          "name_placeholder": "Name",
+          "email_placeholder": "Email",
+          "message_placeholder": "Your message",
+          "submit_label": "Get in touch"
+        }
+      }
+    }
   }
-};
+}
+;
