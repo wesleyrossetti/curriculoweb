@@ -31,10 +31,25 @@
 		});
 
 		/* ---------------------------------------------- /*
-		 * Background image
+		 * Background image, WOW animations and text rotator
+		 * are initialised after loader.js populates the DOM.
 		/* ---------------------------------------------- */
 
-		$('#intro').backstretch(['assets/images/braga3.jpg']);
+		$(document).on('siteDataLoaded', function(e, data) {
+			var bg = (data && data.intro && data.intro.background_image)
+				? data.intro.background_image
+				: 'assets/images/braga3.jpg';
+			$('#intro').backstretch([bg]);
+
+			$('.rotate').textrotator({
+				animation: 'dissolve',
+				separator: '|',
+				speed: 3000
+			});
+
+			wow = new WOW({ mobile: false });
+			wow.init();
+		});
 
 		/* ---------------------------------------------- /*
 		 * Navbar
@@ -81,14 +96,6 @@
 			});
 		 }, { offset: '70%', triggerOnce: true });
 
-		/* ---------------------------------------------- /*
-		 * WOW Animation When You Scroll
-		/* ---------------------------------------------- */
-
-		wow = new WOW({
-			mobile: false
-		});
-		wow.init();
 
 		/* ---------------------------------------------- /*
 		 * Owl slider
@@ -99,16 +106,6 @@
 			slideSpeed : 300,
 			paginationSpeed : 400,
 			autoPlay: 5000
-		});
-
-		/* ---------------------------------------------- /*
-		 * Rotate
-		/* ---------------------------------------------- */
-
-		$(".rotate").textrotator({
-			animation: "dissolve",
-			separator: "|",
-			speed: 3000
 		});
 
 		/* ---------------------------------------------- /*
