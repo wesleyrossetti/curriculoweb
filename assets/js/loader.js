@@ -155,7 +155,7 @@
       div.className = 'col-md-3 col-sm-4 wow ' + anim;
       div.innerHTML =
         '<div class="stat"><div class="stat-icon">' +
-        '<h2><i class="' + item.icon + ' hidden-xs"></i>' +
+        '<h2><i class="' + item.icon + '"></i>' +
         '<span class="timer" data-count="' + item.value + '"></span>' + item.suffix + '</h2>' +
         '</div><h3>' + item.label + '</h3></div>';
       row.appendChild(div);

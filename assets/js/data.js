@@ -2,8 +2,8 @@ window.siteData = {
   "default_language": "pt",
 
   "meta": {
-    "title": "Wesley Rossetti - Resumo Profissional",
-    "description": "Currículo profissional de Wesley Rossetti",
+    "title": "Wesley Rossetti | Consultor de Infraestrutura, Redes e Software Livre",
+    "description": "Perfil profissional de Wesley Rossetti, com atuação em infraestrutura, redes, software livre, automação e desenvolvimento.",
     "author": "Wesley Rossetti",
     "preloader_name": "Wesley Rossetti",
     "lang": "pt-BR"
@@ -36,7 +36,7 @@ window.siteData = {
 
   "intro": {
     "greeting": "Olá, eu sou Wesley Rossetti",
-    "roles": ["Consultor TI", "Network Expertise", "BSD/Linux/Unix", "DevOp"],
+    "roles": ["Consultor de Infraestrutura", "Redes e Sistemas", "BSD/Linux/Unix", "DevOps e Automação"],
     "background_image": "assets/images/braga3.jpg",
     "scroll_target": "#profile"
   },
@@ -49,19 +49,19 @@ window.siteData = {
 
   "profile": {
     "name": "Wesley Rossetti Porto",
-    "subtitle": "Consultor TI - Programador Back-end (Python/PHP/JS/C++) - Network Expertise - DevOp - Linux",
+    "subtitle": "Consultor de TI com foco em infraestrutura, redes, software livre, automação e desenvolvimento back-end.",
     "photo": "assets/images/photo1.jpg",
     "photo_alt": "Wesley Rossetti",
     "bio_title": "Perfil Profissional",
-    "bio": "Do MSX até os ambientes virtuais de hoje, passei por muita coisa, já codei, descodei, mexi com cabeamento lógico, subi em prédio pra instalar antena wirelless, destravei hub e switch em corredor de prédio, enfreitei o frio de datacentes congelantes (sempre esquecendo o casaco), viajei pra tudo que é canto pra dar suporte a ambientes de redes (dos mais exoticos aos excelentes) ... (continua)",
-    "skills_title": "Conhecimentos",
+    "bio": "Minha trajetória em tecnologia começou cedo, ainda nos tempos do MSX, e evoluiu junto com a transformação da infraestrutura digital. Ao longo dos anos, atuei em campo e em ambientes corporativos, passando por redes, cabeamento, suporte, datacenters, virtualização, software livre, automação e desenvolvimento. Hoje, reúno essa vivência prática para desenhar, implantar e sustentar ambientes robustos, eficientes e orientados a resultado.",
+    "skills_title": "Especialidades",
     "skills": [
       { "name": "Network/TI",    "level": 4, "max": 4 },
       { "name": "BSD/Linux/Unix","level": 2, "max": 4 },
       { "name": "Developer",     "level": 2, "max": 4 },
       { "name": "Databases",     "level": 1, "max": 4 }
     ],
-    "social_title": "Social Profiles",
+    "social_title": "Redes profissionais",
     "social": [
       { "icon": "fab fa-facebook fa-fw", "url": "https://www.facebook.com/wesley.rossetti.bsd" },
       { "icon": "fab fa-github-alt",     "url": "https://github.com/wesleyrossetti" },
@@ -70,7 +70,7 @@ window.siteData = {
   },
 
   "stats": {
-    "title": "Minhas Estatisticas",
+    "title": "Indicadores",
     "items": [
       { "icon": "fas fa-coffee", "value": 32,  "suffix": "",  "label": "Copos de Café" },
       { "icon": "fas fa-code",   "value": 999, "suffix": "",  "label": "Linhas de Código" },
@@ -79,81 +79,126 @@ window.siteData = {
   },
 
   "services": {
-    "title": "O que eu sei fazer de melhor !",
-    "subtitle": "Meu trabalho.",
+    "title": "Áreas em que gero mais valor",
+    "subtitle": "Experiência aplicada em infraestrutura, operações e software.",
     "items": [
       {
         "icon": "fas fa-suitcase",
         "title": "Consultoria em TI",
-        "description": "Com mais de 15 anos de experiencia em redes de computadores e soluções de software livre consigo ter uma visão ampla de boa parte do que acontece em TI e faço uso e fruto disso para atender a demanda de projetos, tomando-os como desafio diario para conquista e aprendizado."
+        "description": "Atuo no planejamento e na execução de soluções de infraestrutura com visão técnica e operacional. Minha experiência em redes, software livre e ambientes críticos permite avaliar cenários com profundidade e transformar demandas complexas em entregas consistentes."
       },
       {
         "icon": "fas fa-code",
         "title": "Desenvolvimento",
-        "description": "Meu primeiro livro de informática foi um livro de programação em BASIC para MSX e desde então venho adquirindo experiencia em uma serie de ambiente de programação, no inicio no desktop e hoje na nuvem. Apesar de trabalhar com PHP desde da versão 3, nos últimos anos tenho trabalhado muito com Python, linguagem de paixão a primeira vista, perfeito para Front-end e gerenciamento de sistemas *nix."
+        "description": "Minha base em programação começou cedo e se expandiu com a evolução das plataformas e dos ambientes de execução. Trabalhei com PHP desde suas primeiras versões e, nos últimos anos, concentrei grande parte das entregas em Python, automação, integração de sistemas e ferramentas voltadas a operações e ambientes Unix-like."
       },
       {
         "icon": "fab fa-linux",
         "title": "Linux e BSD afins",
-        "description": "Com Linux, minha primeira experiencia foi no Slackware 3.5 e desde então tenho ele como uma paixão desafiante, acompanhei toda a evolução do seu kernel e apadrinhadas distribuições e em paralelo conheci nosso sistema \"endiabrado\" FreeBSD, passando por variações BSD como o OpenBSD e NetBSD, mas consolidando no FreeBSD e ganhando o apelido \"gugabsd\"."
+        "description": "Construí minha carreira em torno do ecossistema Linux e BSD, acompanhando sua evolução desde os ambientes mais clássicos até arquiteturas modernas. Essa base me deu profundidade em administração de sistemas, segurança, performance, serviços de rede e operação de plataformas estáveis para produção."
       },
       {
         "icon": "fas fa-globe",
         "title": "Serviços de Rede",
-        "description": "Na minha experiencia com BSD/Linux, passei por vários ambiente e neles ganhei expertise no gerenciamento das ferramenta de produtividade em rede, começando com Apache e Bind, passando por Qmail e Postfix, customizando ambientes de proxy com Squid e deixando o Sr. Gates com cabelos em pé ao implementar ambientes heterogenios com Samba e Cia."
+        "description": "Tenho experiência sólida na implantação e administração de serviços essenciais de rede, incluindo web, DNS, e-mail, proxy, autenticação e integração de ambientes heterogêneos. O foco é sempre garantir disponibilidade, segurança, previsibilidade operacional e boa capacidade de crescimento."
       },
       {
         "icon": "fas fa-users",
         "title": "Comunidade Software Livre",
-        "description": "Desde do inicio, quando aprendi o conceito de ratio nas antigas BBS`s, aprendi a compartilhar meu trabalho e meu conhecimento e nesse espirito sempre procurei contribuir com o meu melhor. Sempre que houve a necessidade de aprender e conhecer a fundo uma ferramenta, procurei seus desenvolvedores para estar sempre junto de suas atualizações até eu ter experiencia suficiente para ter meus próprios projetos livres."
+        "description": "Minha relação com software livre sempre esteve ligada a aprendizado contínuo, colaboração e troca de conhecimento. Ao longo do tempo, busquei proximidade com projetos, comunidades e desenvolvedores para aprofundar domínio técnico e contribuir de forma prática para ecossistemas abertos."
       },
       {
         "icon": "fas fa-cloud",
         "title": "Orquestração e Ambientes Virtuais (DevOps)",
-        "description": "Hoje, com a implementação de computação em nuvem e a necessidade de distribuir ambientes, surge a necessidade de trabalhar com uma ferramenta para unificar o gerenciamento de tudo isso e nisso entra ferramentas como Puppet, Chef e Ansible -- Nosso amigo DevOp"
+        "description": "A evolução para nuvem, virtualização e ambientes distribuídos exige automação, padronização e controle operacional. Trabalho com ferramentas e práticas de DevOps para provisionar, organizar e sustentar ambientes com mais velocidade, confiabilidade e escala."
       }
     ]
   },
 
   "current_status": {
-    "section_title": "Meu Status Atual",
-    "headline": "Soando a camisa na",
+    "section_title": "Atuação atual",
+    "headline": "Hoje, sigo em operação na",
     "company": "WmanTI",
     "company_url": "http://www.wmanti.com.br",
-    "description": "Atualmente estou atuando como Administrador de Redes e acumulando funções como DevOp, ampliando os horizontes para projetos novos afim de atender a demanda da empresa.",
-    "cta_label": "Entre em contato",
+    "description": "Atuo como Administrador de Redes e também em frentes de automação, DevOps e sustentação de infraestrutura, contribuindo para projetos que exigem confiabilidade técnica, adaptação rápida e visão ampla de operação.",
+    "cta_label": "Fale comigo",
     "cta_href": "#contact"
   },
 
   "resume": {
-    "title": "Curriculum",
-    "subtitle": "Resumo Professional",
+    "title": "Currículo",
+    "subtitle": "Resumo profissional",
     "education_title": "Educação",
     "education": [
       {
-        "degree": "Ciencias da Computação",
-        "description": "Universidade do Grande Rio - Curso superior de Computação",
-        "org": "UNIGRANRIO",
-        "period": "1999 - Trancado"
+        "degree": "Graduação Analise e Desenvolvimento de Sistemas",
+        "description": "Instituto de Educação Superior de Brasília",
+        "org": "IESB",
+        "period": "2015 - 2019"
       },
       {
-        "degree": "Red Hat Certified Technician (RHCT)",
-        "description": "RHCT Certificate number: 604006130599966",
-        "org": "Red Hat",
-        "period": "2006"
+        "degree": "Empreendedorismo",
+        "description": "Formação técnica com base em informática, DNS e competências voltadas à atuação prática em tecnologia.",
+        "org": "Escola Técnica de Ceilândia",
+        "period": "Formação técnica"
+      },
+      {
+        "degree": "Pós-graduação Segurança da Informação",
+        "description": "Especialização voltada à proteção de ambientes, gestão de riscos, boas práticas de segurança e fortalecimento da governança em tecnologia.",
+        "org": "Faculdade Bookplay",
+        "period": "jan de 2025 - dez de 2025"
       }
     ],
     "experience_title": "Experiência",
     "experience": [
       {
-        "title": "Sysadmin",
-        "company": "W4M Solutions",
-        "period": "2017 - Atual",
-        "location": "Faro/Portugal",
-        "description": "",
+        "title": "Especialista em consultoria - DEVOPS e Infraestrutura em cloud",
+        "company": "Nuvem Online",
+        "period": "jul de 2021 - fev de 2026",
+        "location": "Remoto",
+        "description": "Atuação na implantação, administração e sustentação de ambientes de infraestrutura de TI on-premises e cloud, com foco em alta disponibilidade, segurança, performance e escalabilidade. Experiência na operação de ambientes críticos em produção, incluindo servidores Linux e Windows, virtualização, containers, Kubernetes, automação de processos, pipelines CI/CD, observabilidade, storage, backup, recuperação de desastres e suporte técnico avançado.",
         "items": [
+          "Infraestrutura on-premises e cloud",
+          "Alta disponibilidade, segurança e escalabilidade",
+          "Linux, Windows, virtualização e containers",
+          "Kubernetes, automação e CI/CD",
+          "Prometheus, Grafana e logging",
+          "Storage, backup e recuperação de desastres",
+          "Troubleshooting e sustentação de ambientes críticos"
+        ]
+      },
+      {
+        "title": "Técnico de Suporte",
+        "company": "Hospital Santa Marta",
+        "period": "fev de 2022 - jan de 2023",
+        "location": "Presencial - Brasília, Distrito Federal, Brasil",
+        "description": "Atuação na implantação, administração e sustentação em ambiente critico em regime de plantao de 12 horas, com foco em alta disponibilidade, segurança, performance e escalabilidade. Experiência na operação de ambientes críticos em produção, incluindo servidores Linux e Windows, virtualização, containers, Kubernetes, automação de processos, pipelines CI/CD, observabilidade, storage, backup, recuperação de desastres e suporte técnico avançado.",
+        "items": [
+          "Infraestrutura on-premises",
+          "Alta disponibilidade, segurança e escalabilidade",
+          "Linux, Windows, virtualização",
+          "Troubleshooting e sustentação de ambientes críticos",
+          "Monitoramento e resposta a incidentes(zabbix, nagios, cacti) ",
+          "Suporte técnico avançado em ambiente hospitalar(Tasy)",
+          "Manutenção de sistemas críticos de saúde",
+          "Garantia de continuidade operacional",
+          "Colaboração com equipes multidisciplinares",
+          "Documentação e melhoria de processos"
+        ]
+      },
+      {
+        "title": "Analista de infraestrutura de TI",
+        "company": "TIQUI Soluções em Tecnologia",
+        "period": "jul de 2021 - jul de 2023",
+        "location": "Brasília, Distrito Federal, Brasil",
+        "description": "Atuação em infraestrutura de TI com foco em operação, suporte e administração de ambientes corporativos, incluindo tecnologias Microsoft, resolução de incidentes e sustentação de serviços críticos.",
+        "items": [
+          "Infraestrutura corporativa",
+          "Tecnologias Microsoft",
+          "Resolução de problemas",
+          "Sustentação operacional",
+          "Suporte técnico especializado",
           "Virtualização (VMWare)",
-          "Monitoramento (Centreon)",
           "Automação de sistemas",
           "Desenvolvimento e suporte",
           "Soluções de embarcados (Raspberry, ARM em geral)",
@@ -161,17 +206,8 @@ window.siteData = {
           "Databases (SQL and NoSQL)",
           "Cluster Solutions",
           "Gerenciamento de Redes",
-          "Software Livre em geral (Linux & BSD)"
-        ]
-      },
-      {
-        "title": "Diretor / Consultor",
-        "company": "Mundounix Consultoria em TI",
-        "period": "2009 - 2017",
-        "location": "Teresópolis/RJ",
-        "description": "Empresa atuando no mercado de consultoria em redes e softwares com ênfase na utilização de software livre e soluções de economia de licença. Atuando como agregador e parceiro em soluções de desenvolvimento de projetos de rede e software.",
-        "items": [
-          "Programação e automação (C, C++, Python, PHP)",
+          "Software Livre em geral (Linux & BSD)",
+          
           "Gerenciamento de Redes",
           "Software Livre em geral",
           "Ambientes heterogêneos (Principalmente SAMBA4 – Active Directory)",
@@ -179,13 +215,27 @@ window.siteData = {
         ]
       },
       {
-        "title": "Coordenador de Infraestrutura",
-        "company": "Fidelize Tecnologia em Informação",
-        "period": "2013 - 2014",
-        "location": "Rio de Janeiro/RJ",
-        "description": "",
+        "title": "Analista de infraestrutura de TI",
+        "company": "Menu Tecnologia",
+        "period": "set de 2018 - set de 2021",
+        "location": "Brasília e Região",
+        "description": "Responsável pela operação e suporte de infraestrutura, com forte atuação em ambientes Microsoft, atendimento a incidentes, manutenção de serviços e estabilidade operacional.",
         "items": [
-          "Programação e automação (C, C++, Python, PHP)",
+          "Administração de infraestrutura",
+          "Tecnologias Microsoft",
+          "Troubleshooting",
+          "Suporte a usuários e serviços",
+          "Continuidade operacional",
+          "Virtualização (VMWare)",
+          "Automação de sistemas",
+          "Desenvolvimento e suporte",
+          "Soluções de embarcados (Raspberry, ARM em geral)",
+          "Orquestração Docker",
+          "Databases (SQL and NoSQL)",
+          "Cluster Solutions",
+          "Gerenciamento de Redes",
+          "Software Livre em geral (Linux & BSD)",
+          
           "Gerenciamento de Redes",
           "Software Livre em geral",
           "Ambientes heterogêneos (Principalmente SAMBA4 – Active Directory)",
@@ -193,40 +243,66 @@ window.siteData = {
         ]
       },
       {
-        "title": "Programador",
-        "company": "BSD Perimeter LLC",
-        "period": "2011",
-        "location": "Kentucky/EUA (remoto)",
-        "description": "BSD Perimeter was founded in late 2006 by Chris Buechler and Scott Ullrich, the founders of pfSense, to bring commercial backing and support to the pfSense and m0n0wall projects.",
+        "title": "Analista de suporte técnico",
+        "company": "rmc tecnologia",
+        "period": "jun de 2017 - ago de 2018",
+        "location": "Brasília e Região",
+        "description": "Atuação em suporte técnico e atendimento a incidentes, com foco em ambientes Microsoft, resolução de problemas e sustentação de infraestrutura para operação diária.",
         "items": [
-          "Desenvolvimento em linguagem PHP/C/C++",
-          "Projetos livres e comerciais",
-          "Suporte a código do pfSense",
-          "Desenvolvimento em projetos de rede",
-          "Testes e desenvolvimento em tecnologias novas"
+          "Suporte técnico",
+          "Tecnologias Microsoft",
+          "Resolução de problemas",
+          "Atendimento a usuários",
+          "Sustentação de ambiente"
         ]
       },
       {
-        "title": "Consultor Linux/BSD/Unix/Redes",
-        "company": "Datasul Infraestrutura",
-        "period": "2007 - 2008",
-        "location": "Joinville/SC",
-        "description": "",
+        "title": "Suporte técnico",
+        "company": "JCGontijo Engenharia S.A",
+        "period": "dez de 2016 - fev de 2017",
+        "location": "Brasília e Região",
+        "description": "Atuação em suporte técnico voltado à rotina corporativa, resolução de incidentes, suporte a usuários e manutenção da operação de TI.",
         "items": [
-          "Administração de ativos CISCO",
-          "Firewall/Segurança BSD/Cisco",
-          "Planejamento/Execução de Projetos",
-          "Atendimento \"on-site\" à clientes corporativos"
+          "Suporte ao usuário",
+          "Resolução de incidentes",
+          "Rotina corporativa de TI",
+          "Manutenção operacional"
+        ]
+      },
+      {
+        "title": "Analista de suporte técnico",
+        "company": "rmc tecnologia",
+        "period": "nov de 2016 - dez de 2016",
+        "location": "Brasília e Região",
+        "description": "Atuação em suporte técnico com foco em ambientes Microsoft, atendimento a chamados e resolução de problemas para continuidade da operação.",
+        "items": [
+          "Suporte técnico",
+          "Tecnologias Microsoft",
+          "Atendimento a chamados",
+          "Resolução de problemas"
+        ]
+      },
+      {
+        "title": "Soldado (Auxiliar de suporte TI)",
+        "company": "Exército Brasileiro",
+        "period": "mar de 2015 - ago de 2016",
+        "location": "Brasília e Região",
+        "description": "Atuação em suporte de TI dentro de ambiente institucional, com foco em suporte técnico, organização operacional e atendimento a demandas de infraestrutura e usuários.",
+        "items": [
+          "Suporte técnico institucional",
+          "Tecnologias Microsoft",
+          "Resolução de problemas",
+          "Rotina operacional de TI"
         ]
       }
     ],
     "cv_download_url": "https://luizgustavo.pro.br/downloads/curriculum.pdf",
-    "cv_download_label": "Download CV"
+    "cv_download_label": "Baixar currículo"
   },
 
   "contact": {
     "title": "Entre em contato",
-    "subtitle": "Terei o prazer em responder seu email.",
+    "subtitle": "Se quiser conversar sobre infraestrutura, projetos ou parcerias, estou disponível.",
     "location": "Distrito Federal, Brasil",
     "email": "wesley_rossetti96@live.com",
     "website": "http://www.wmanti.com.br",
@@ -237,19 +313,19 @@ window.siteData = {
       "name_placeholder": "Nome",
       "email_placeholder": "E-mail",
       "message_placeholder": "Sua Mensagem",
-      "submit_label": "Entre em contato"
+      "submit_label": "Enviar mensagem"
     }
   },
 
   "footer": {
-    "copyright": "©2020 Wesley Rossetti, All Rights Reserved."
+    "copyright": "Wesley Rossetti, All Rights Reserved."
   },
 
   "translations": {
     "en": {
       "meta": {
-        "title": "Wesley Rossetti - Professional Summary",
-        "description": "Professional resume of Wesley Rossetti",
+        "title": "Wesley Rossetti | Infrastructure, Networking and Open Source Consultant",
+        "description": "Professional profile of Wesley Rossetti, focused on infrastructure, networking, open source, automation and back-end development.",
         "lang": "en"
       },
       "navbar": {
@@ -263,17 +339,17 @@ window.siteData = {
       },
       "intro": {
         "greeting": "Hi, I am Wesley Rossetti",
-        "roles": ["IT Consultant", "Network Expertise", "BSD/Linux/Unix", "DevOps"]
+        "roles": ["Infrastructure Consultant", "Networking and Systems", "BSD/Linux/Unix", "DevOps and Automation"]
       },
       "profile": {
-        "subtitle": "IT Consultant - Back-end Developer (Python/PHP/JS/C++) - Network Expertise - DevOps - Linux",
+        "subtitle": "IT consultant focused on infrastructure, networking, open source, automation and back-end development.",
         "bio_title": "Professional Profile",
-        "bio": "From MSX to today's virtual environments, I have been through a lot: coding, troubleshooting, structured cabling, climbing buildings to install wireless antennas, unlocking hubs and switches in hallways, facing freezing datacenters without a coat, and traveling everywhere to support network environments from the unusual to the excellent... (to be continued)",
-        "skills_title": "Skills",
-        "social_title": "Social Profiles"
+        "bio": "My career in technology started early, back in the MSX days, and evolved alongside the transformation of digital infrastructure. Over the years, I have worked both in the field and in corporate environments, covering networking, cabling, support, datacenters, virtualization, open source, automation and development. Today, I bring that hands-on experience together to design, implement and sustain robust, efficient and results-oriented environments.",
+        "skills_title": "Core Skills",
+        "social_title": "Professional Networks"
       },
       "stats": {
-        "title": "My Statistics",
+        "title": "Highlights",
         "items": [
           { "label": "Cups of Coffee" },
           { "label": "Lines of Code" },
@@ -281,39 +357,39 @@ window.siteData = {
         ]
       },
       "services": {
-        "title": "What I do best!",
-        "subtitle": "My work.",
+        "title": "Where I deliver the most value",
+        "subtitle": "Hands-on experience in infrastructure, operations and software.",
         "items": [
           {
             "title": "IT Consulting",
-            "description": "With more than 15 years of experience in computer networks and open-source software solutions, I have built a broad view of how IT works in practice and use that perspective to meet project demands, treating each one as a daily challenge for achievement and learning."
+            "description": "I work on the planning and execution of infrastructure solutions with both technical depth and operational awareness. My background in networking, open source and critical environments allows me to turn complex demands into practical and reliable delivery."
           },
           {
             "title": "Development",
-            "description": "My first computer book was a BASIC programming book for MSX, and since then I have gained experience across many programming environments, first on desktop and now in the cloud. Although I have worked with PHP since version 3, in recent years I have worked heavily with Python, a language I fell in love with at first sight, ideal for front-end work and *nix systems management."
+            "description": "My foundation in programming started early and expanded as platforms and execution environments evolved. I have worked with PHP since its earlier days and, in recent years, have focused a large part of my delivery on Python, automation, systems integration and tooling for Unix-like operations."
           },
           {
             "title": "Linux and BSD",
-            "description": "My first experience with Linux was Slackware 3.5, and since then it has remained a challenging passion. I followed the evolution of the kernel and its related distributions, and in parallel I got to know the 'devilish' FreeBSD system, also going through OpenBSD and NetBSD, but ultimately consolidating around FreeBSD and earning the nickname 'gugabsd'."
+            "description": "I built my career around the Linux and BSD ecosystem, following its evolution from classic environments to modern infrastructure. This background gave me depth in systems administration, security, performance, network services and stable production operations."
           },
           {
             "title": "Network Services",
-            "description": "Through my BSD/Linux experience, I worked in many environments and developed expertise managing network productivity tools, starting with Apache and Bind, moving through Qmail and Postfix, customizing proxy environments with Squid, and making Mr. Gates nervous by implementing heterogeneous environments with Samba and company."
+            "description": "I have solid experience deploying and managing essential network services, including web, DNS, e-mail, proxy, authentication and heterogeneous integrations. The goal is always the same: availability, security, operational predictability and room to scale."
           },
           {
             "title": "Free Software Community",
-            "description": "From the beginning, when I learned the concept of ratio on old BBS systems, I learned to share my work and knowledge. In that spirit, I have always tried to contribute my best. Whenever I needed to truly learn and understand a tool, I sought its developers so I could stay close to its updates until I had enough experience to build my own open projects."
+            "description": "My relationship with free software has always been tied to continuous learning, collaboration and knowledge sharing. Over time, I sought proximity to projects, communities and developers to deepen technical expertise and contribute in a practical way to open ecosystems."
           },
           {
             "title": "Orchestration and Virtual Environments (DevOps)",
-            "description": "Today, with the rise of cloud computing and the need to distribute environments, there is a strong need for tools that unify all this management. That is where solutions such as Puppet, Chef, and Ansible come in, along with our friend DevOps."
+            "description": "Cloud, virtualization and distributed environments require automation, standardization and operational control. I work with DevOps practices and tooling to provision, organize and sustain environments with more speed, reliability and scale."
           }
         ]
       },
       "current_status": {
-        "section_title": "Current Status",
-        "headline": "Currently working hard at",
-        "description": "I am currently working as a Network Administrator while also taking on DevOps responsibilities, expanding horizons for new projects in order to meet the company's demands.",
+        "section_title": "Current role",
+        "headline": "Today, I am actively working at",
+        "description": "I work as a Network Administrator while also contributing across automation, DevOps and infrastructure support, helping deliver projects that demand technical reliability, quick adaptation and broad operational vision.",
         "cta_label": "Get in touch"
       },
       "resume": {
@@ -322,83 +398,135 @@ window.siteData = {
         "education_title": "Education",
         "education": [
           {
-            "degree": "Computer Science",
-            "description": "Grande Rio University - Undergraduate Computer Science program",
-            "period": "1999 - Paused"
+            "degree": "Undergraduate Degree",
+            "description": "Higher education with competencies in C programming, computing and technical foundations applied to computer science.",
+            "org": "IESB",
+            "period": "2015 - 2019"
           },
           {
-            "degree": "Red Hat Certified Technician (RHCT)",
-            "description": "RHCT Certificate number: 604006130599966"
+            "degree": "Entrepreneurship",
+            "description": "Technical education grounded in computing, DNS and practical skills for technology environments.",
+            "org": "Escola Técnica de Ceilandia",
+            "period": "Technical program"
+          },
+          {
+            "degree": "Lato Sensu Postgraduate in Information Security",
+            "description": "Postgraduate specialization focused on environment protection, risk management, security best practices and stronger technology governance.",
+            "org": "Faculdade Bookplay",
+            "period": "Jan 2025 - Dec 2025"
           }
         ],
         "experience_title": "Experience",
         "experience": [
           {
+            "title": "Consulting Specialist",
+            "company": "Nuvem.online",
+            "period": "Jul 2021 - Feb 2026",
+            "location": "Remote",
+            "description": "Worked on the deployment, administration and sustainment of on-premises and cloud IT infrastructure, focused on high availability, security, performance and scalability. Experience in critical production environments including Linux and Windows servers, virtualization, containers, Kubernetes, process automation, CI/CD pipelines, observability, storage, backup, disaster recovery and advanced support.",
             "items": [
-              "Virtualization (VMWare)",
-              "Monitoring (Centreon)",
-              "Systems automation",
-              "Development and support",
-              "Embedded solutions (Raspberry, ARM in general)",
-              "Docker orchestration",
-              "Databases (SQL and NoSQL)",
-              "Cluster solutions",
-              "Network management",
-              "Free software in general (Linux & BSD)"
+              "On-premises and cloud infrastructure",
+              "High availability, security and scalability",
+              "Linux, Windows, virtualization and containers",
+              "Kubernetes, automation and CI/CD",
+              "Prometheus, Grafana and logging",
+              "Storage, backup and disaster recovery",
+              "Troubleshooting and critical environment support"
             ]
           },
           {
-            "title": "Director / Consultant",
-            "description": "Company operating in the IT consulting market for networks and software, with an emphasis on free software and license-saving solutions. Working as an integrator and partner in network and software project development solutions.",
+            "title": "IT Infrastructure Analyst",
+            "company": "TIQUI Soluções em Tecnologia",
+            "period": "Jul 2021 - Jul 2023",
+            "location": "Brasilia, Federal District, Brazil",
+            "description": "Worked in IT infrastructure with focus on operations, support and administration of corporate environments, including Microsoft technologies, incident resolution and sustainment of critical services.",
             "items": [
-              "Programming and automation (C, C++, Python, PHP)",
-              "Network management",
-              "Free software in general",
-              "Heterogeneous environments (mainly SAMBA4 - Active Directory)",
-              "Environment virtualization"
+              "Corporate infrastructure",
+              "Microsoft technologies",
+              "Troubleshooting",
+              "Operational sustainment",
+              "Specialized technical support"
             ]
           },
           {
-            "title": "Infrastructure Coordinator",
+            "title": "IT Infrastructure Analyst",
+            "company": "Menu Tecnologia",
+            "period": "Sep 2018 - Sep 2021",
+            "location": "Brasilia and Region",
+            "description": "Responsible for infrastructure operations and support, with strong involvement in Microsoft environments, incident handling, service maintenance and operational stability.",
             "items": [
-              "Programming and automation (C, C++, Python, PHP)",
-              "Network management",
-              "Free software in general",
-              "Heterogeneous environments (mainly SAMBA4 - Active Directory)",
-              "Environment virtualization"
+              "Infrastructure administration",
+              "Microsoft technologies",
+              "Troubleshooting",
+              "User and service support",
+              "Operational continuity"
             ]
           },
           {
-            "description": "BSD Perimeter was founded in late 2006 by Chris Buechler and Scott Ullrich, the founders of pfSense, to bring commercial backing and support to the pfSense and m0n0wall projects.",
+            "title": "Technical Support Analyst",
+            "company": "rmc tecnologia",
+            "period": "Jun 2017 - Aug 2018",
+            "location": "Brasilia and Region",
+            "description": "Worked in technical support and incident handling, focused on Microsoft environments, problem resolution and infrastructure sustainment for day-to-day operations.",
             "items": [
-              "Development in PHP/C/C++",
-              "Open-source and commercial projects",
-              "pfSense code support",
-              "Network project development",
-              "Testing and development with new technologies"
+              "Technical support",
+              "Microsoft technologies",
+              "Problem solving",
+              "User support",
+              "Environment sustainment"
             ]
           },
           {
-            "title": "Linux/BSD/Unix/Network Consultant",
+            "title": "Technical Support",
+            "company": "JCGontijo Engenharia S.A",
+            "period": "Dec 2016 - Feb 2017",
+            "location": "Brasilia and Region",
+            "description": "Worked in technical support for corporate routine, incident resolution, user support and maintenance of IT operations.",
             "items": [
-              "CISCO asset administration",
-              "BSD/Cisco firewall and security",
-              "Project planning and execution",
-              "On-site support for corporate clients"
+              "User support",
+              "Incident resolution",
+              "Corporate IT routine",
+              "Operational maintenance"
+            ]
+          },
+          {
+            "title": "Technical Support Analyst",
+            "company": "rmc tecnologia",
+            "period": "Nov 2016 - Dec 2016",
+            "location": "Brasilia and Region",
+            "description": "Worked in technical support focused on Microsoft environments, ticket handling and problem resolution to ensure business continuity.",
+            "items": [
+              "Technical support",
+              "Microsoft technologies",
+              "Ticket handling",
+              "Problem solving"
+            ]
+          },
+          {
+            "title": "Soldier (IT Support Assistant)",
+            "company": "Brazilian Army",
+            "period": "Mar 2015 - Aug 2016",
+            "location": "Brasilia and Region",
+            "description": "Worked in IT support within an institutional environment, focused on technical support, operational organization and infrastructure and user demands.",
+            "items": [
+              "Institutional technical support",
+              "Microsoft technologies",
+              "Problem solving",
+              "IT operational routine"
             ]
           }
         ],
-        "cv_download_label": "Download CV"
+        "cv_download_label": "Download resume"
       },
       "contact": {
         "title": "Get in touch",
-        "subtitle": "I will be glad to reply to your email.",
+        "subtitle": "If you want to talk about infrastructure, projects or partnerships, I am available.",
         "location": "Federal District, Brazil",
         "form": {
           "name_placeholder": "Name",
           "email_placeholder": "Email",
           "message_placeholder": "Your message",
-          "submit_label": "Get in touch"
+          "submit_label": "Send message"
         }
       }
     }
