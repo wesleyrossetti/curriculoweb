@@ -280,7 +280,10 @@
 
   function populateFooter(footer) {
     var year = new Date().getFullYear();
-    var copyright = (footer.copyright || '').replace(/\b20\d{2}\b/, String(year));
+    var baseText = footer.copyright || '';
+    var copyright = /\b20\d{2}\b/.test(baseText)
+      ? baseText.replace(/\b20\d{2}\b/, String(year))
+      : ('©' + year + ' ' + baseText).trim();
     setText('footer-copyright', copyright);
   }
 

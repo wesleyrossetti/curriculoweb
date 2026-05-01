@@ -1,6 +1,5 @@
 window.siteData = {
   "default_language": "pt",
-
   "meta": {
     "title": "Wesley Rossetti | Consultor de Infraestrutura, Redes e Software Livre",
     "description": "Perfil profissional de Wesley Rossetti, com atuação em infraestrutura, redes, software livre, automação e desenvolvimento.",
@@ -8,15 +7,29 @@ window.siteData = {
     "preloader_name": "Wesley Rossetti",
     "lang": "pt-BR"
   },
-
   "navbar": {
     "brand": "W rossetti",
     "links": [
-      { "label": "Principal",  "href": "#intro" },
-      { "label": "Perfil",     "href": "#profile" },
-      { "label": "Serviços",   "href": "#services" },
-      { "label": "Curriculum", "href": "#resume" },
-      { "label": "Contato",    "href": "#contact" }
+      {
+        "label": "Principal",
+        "href": "#intro"
+      },
+      {
+        "label": "Perfil",
+        "href": "#profile"
+      },
+      {
+        "label": "Serviços",
+        "href": "#services"
+      },
+      {
+        "label": "Curriculum",
+        "href": "#resume"
+      },
+      {
+        "label": "Contato",
+        "href": "#contact"
+      }
     ],
     "languages": [
       {
@@ -33,20 +46,22 @@ window.siteData = {
       }
     ]
   },
-
   "intro": {
     "greeting": "Olá, eu sou Wesley Rossetti",
-    "roles": ["Consultor de Infraestrutura", "Redes e Sistemas", "BSD/Linux/Unix", "DevOps e Automação"],
+    "roles": [
+      "Consultor de Infraestrutura",
+      "Redes e Sistemas",
+      "BSD/Linux/Unix",
+      "DevOps e Automação"
+    ],
     "background_image": "assets/images/braga3.jpg",
     "scroll_target": "#profile"
   },
-
   "contact_bar": {
     "email": "wesley_rossetti96@live.com",
     "gtalk": "wesleyzinho95@gmail.com",
     "location": "Distrito Federal, Brasil"
   },
-
   "profile": {
     "name": "Wesley Rossetti Porto",
     "subtitle": "Consultor de TI com foco em infraestrutura, redes, software livre, automação e desenvolvimento back-end.",
@@ -56,28 +71,66 @@ window.siteData = {
     "bio": "Minha trajetória em tecnologia começou cedo, ainda nos tempos do MSX, e evoluiu junto com a transformação da infraestrutura digital. Ao longo dos anos, atuei em campo e em ambientes corporativos, passando por redes, cabeamento, suporte, datacenters, virtualização, software livre, automação e desenvolvimento. Hoje, reúno essa vivência prática para desenhar, implantar e sustentar ambientes robustos, eficientes e orientados a resultado.",
     "skills_title": "Especialidades",
     "skills": [
-      { "name": "Network/TI",    "level": 4, "max": 4 },
-      { "name": "BSD/Linux/Unix","level": 2, "max": 4 },
-      { "name": "Developer",     "level": 2, "max": 4 },
-      { "name": "Databases",     "level": 1, "max": 4 }
+      {
+        "name": "Network/TI",
+        "level": 4,
+        "max": 4
+      },
+      {
+        "name": "BSD/Linux/Unix",
+        "level": 2,
+        "max": 4
+      },
+      {
+        "name": "Developer",
+        "level": 2,
+        "max": 4
+      },
+      {
+        "name": "Databases",
+        "level": 1,
+        "max": 4
+      }
     ],
     "social_title": "Redes profissionais",
     "social": [
-      { "icon": "fab fa-facebook fa-fw", "url": "https://www.facebook.com/wesley.rossetti.bsd" },
-      { "icon": "fab fa-github-alt",     "url": "https://github.com/wesleyrossetti" },
-      { "icon": "fab fa-linkedin",       "url": "https://www.linkedin.com/in/wesley-rossetti" }
+      {
+        "icon": "fab fa-facebook fa-fw",
+        "url": "https://www.facebook.com/wesley.rossetti.bsd"
+      },
+      {
+        "icon": "fab fa-github-alt",
+        "url": "https://github.com/wesleyrossetti"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "url": "https://www.linkedin.com/in/wesley-rossetti"
+      }
     ]
   },
-
   "stats": {
     "title": "Indicadores",
     "items": [
-      { "icon": "fas fa-coffee", "value": 32,  "suffix": "",  "label": "Copos de Café" },
-      { "icon": "fas fa-code",   "value": 999, "suffix": "",  "label": "Linhas de Código" },
-      { "icon": "fas fa-server", "value": 300, "suffix": "+", "label": "Servidores Instalados" }
+      {
+        "icon": "fas fa-coffee",
+        "value": 32,
+        "suffix": "",
+        "label": "Copos de Café"
+      },
+      {
+        "icon": "fas fa-code",
+        "value": 999,
+        "suffix": "",
+        "label": "Linhas de Código"
+      },
+      {
+        "icon": "fas fa-server",
+        "value": 300,
+        "suffix": "+",
+        "label": "Servidores Instalados"
+      }
     ]
   },
-
   "services": {
     "title": "Áreas em que gero mais valor",
     "subtitle": "Experiência aplicada em infraestrutura, operações e software.",
@@ -114,7 +167,6 @@ window.siteData = {
       }
     ]
   },
-
   "current_status": {
     "section_title": "Atuação atual",
     "headline": "Hoje, sigo em operação na",
@@ -124,7 +176,6 @@ window.siteData = {
     "cta_label": "Fale comigo",
     "cta_href": "#contact"
   },
-
   "resume": {
     "title": "Currículo",
     "subtitle": "Resumo profissional",
@@ -207,7 +258,6 @@ window.siteData = {
           "Cluster Solutions",
           "Gerenciamento de Redes",
           "Software Livre em geral (Linux & BSD)",
-          
           "Gerenciamento de Redes",
           "Software Livre em geral",
           "Ambientes heterogêneos (Principalmente SAMBA4 – Active Directory)",
@@ -235,7 +285,6 @@ window.siteData = {
           "Cluster Solutions",
           "Gerenciamento de Redes",
           "Software Livre em geral (Linux & BSD)",
-          
           "Gerenciamento de Redes",
           "Software Livre em geral",
           "Ambientes heterogêneos (Principalmente SAMBA4 – Active Directory)",
@@ -296,10 +345,9 @@ window.siteData = {
         ]
       }
     ],
-    "cv_download_url": "https://luizgustavo.pro.br/downloads/curriculum.pdf",
+    "cv_download_url": "curriculo.pdf",
     "cv_download_label": "Baixar currículo"
   },
-
   "contact": {
     "title": "Entre em contato",
     "subtitle": "Se quiser conversar sobre infraestrutura, projetos ou parcerias, estou disponível.",
@@ -316,11 +364,9 @@ window.siteData = {
       "submit_label": "Enviar mensagem"
     }
   },
-
   "footer": {
     "copyright": "Wesley Rossetti, All Rights Reserved."
   },
-
   "translations": {
     "en": {
       "meta": {
@@ -330,16 +376,36 @@ window.siteData = {
       },
       "navbar": {
         "links": [
-          { "label": "Home", "href": "#intro" },
-          { "label": "Profile", "href": "#profile" },
-          { "label": "Services", "href": "#services" },
-          { "label": "Resume", "href": "#resume" },
-          { "label": "Contact", "href": "#contact" }
+          {
+            "label": "Home",
+            "href": "#intro"
+          },
+          {
+            "label": "Profile",
+            "href": "#profile"
+          },
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Resume",
+            "href": "#resume"
+          },
+          {
+            "label": "Contact",
+            "href": "#contact"
+          }
         ]
       },
       "intro": {
         "greeting": "Hi, I am Wesley Rossetti",
-        "roles": ["Infrastructure Consultant", "Networking and Systems", "BSD/Linux/Unix", "DevOps and Automation"]
+        "roles": [
+          "Infrastructure Consultant",
+          "Networking and Systems",
+          "BSD/Linux/Unix",
+          "DevOps and Automation"
+        ]
       },
       "profile": {
         "subtitle": "IT consultant focused on infrastructure, networking, open source, automation and back-end development.",
@@ -351,9 +417,15 @@ window.siteData = {
       "stats": {
         "title": "Highlights",
         "items": [
-          { "label": "Cups of Coffee" },
-          { "label": "Lines of Code" },
-          { "label": "Installed Servers" }
+          {
+            "label": "Cups of Coffee"
+          },
+          {
+            "label": "Lines of Code"
+          },
+          {
+            "label": "Installed Servers"
+          }
         ]
       },
       "services": {
@@ -531,5 +603,4 @@ window.siteData = {
       }
     }
   }
-}
-;
+};
