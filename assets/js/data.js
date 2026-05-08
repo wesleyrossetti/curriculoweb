@@ -65,7 +65,7 @@ window.siteData = {
   "profile": {
     "name": "Wesley Rossetti Porto",
     "subtitle": "Consultor de TI com foco em infraestrutura, redes, software livre, automação e desenvolvimento back-end.",
-    "photo": "assets/images/photo1.jpg",
+    "photo": "assets/images/profile-photo.jpg",
     "photo_alt": "Wesley Rossetti",
     "bio_title": "Perfil Profissional",
     "bio": "Minha trajetória em tecnologia começou cedo, ainda nos tempos do MSX, e evoluiu junto com a transformação da infraestrutura digital. Ao longo dos anos, atuei em campo e em ambientes corporativos, passando por redes, cabeamento, suporte, datacenters, virtualização, software livre, automação e desenvolvimento. Hoje, reúno essa vivência prática para desenhar, implantar e sustentar ambientes robustos, eficientes e orientados a resultado.",
@@ -94,10 +94,6 @@ window.siteData = {
     ],
     "social_title": "Redes profissionais",
     "social": [
-      {
-        "icon": "fab fa-facebook fa-fw",
-        "url": "https://www.facebook.com/wesley.rossetti.bsd"
-      },
       {
         "icon": "fab fa-github-alt",
         "url": "https://github.com/wesleyrossetti"

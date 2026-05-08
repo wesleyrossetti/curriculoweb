@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Sora:wght@500;700&display=swap');
 
 :root {
 	--bg: #f3efe7;
@@ -21,6 +21,14 @@
 	--radius-md: 18px;
 	--radius-sm: 12px;
 	--container-pad: 24px;
+	--font-body: 'Inter', sans-serif;
+	--font-display: 'Sora', sans-serif;
+	--step--1: clamp(1.18rem, 1.14rem + 0.14vw, 1.32rem);
+	--step-0:  clamp(1.36rem, 1.31rem + 0.19vw, 1.55rem);
+	--step-1:  clamp(1.64rem, 1.53rem + 0.37vw, 2rem);
+	--step-2:  clamp(2.18rem, 2.02rem + 0.56vw, 2.73rem);
+	--step-3:  clamp(2.73rem, 2.3rem + 1.48vw, 4.18rem);
+	--step-4:  clamp(4rem, 3.3rem + 2.41vw, 6.36rem);
 }
 
 *,
@@ -30,11 +38,12 @@
 }
 
 html {
+	font-size: 11px;
 	scroll-behavior: auto;
 }
 
 body {
-	font: 400 16px/1.75 'DM Sans', sans-serif;
+	font: 400 var(--step-0)/1.7 var(--font-body);
 	color: var(--text);
 	background:
 		radial-gradient(circle at top left, rgba(216, 106, 49, 0.12), transparent 28%),
@@ -66,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: var(--font-display);
 	font-weight: 700;
 	letter-spacing: -0.03em;
 	margin: 0 0 14px;
@@ -74,33 +83,34 @@ h6 {
 }
 
 h1 {
-	font-size: clamp(3.6rem, 7vw, 7.2rem);
-	line-height: 0.96;
+	font-size: var(--step-4);
+	line-height: 0.98;
 }
 
 h2 {
-	font-size: clamp(2.3rem, 4vw, 4rem);
-	line-height: 1.02;
+	font-size: var(--step-3);
+	line-height: 1.05;
 }
 
 h3 {
-	font-size: 1.55rem;
-	line-height: 1.2;
+	font-size: var(--step-2);
+	line-height: 1.18;
 }
 
 h4 {
-	font-size: 1.2rem;
+	font-size: var(--step-1);
 	line-height: 1.35;
 }
 
 h5,
 h6 {
-	font-size: 0.95rem;
+	font-size: var(--step-0);
 	line-height: 1.35;
 }
 
 p {
 	margin: 0 0 18px;
+	font-size: var(--step-0);
 	color: var(--muted);
 }
 
@@ -180,13 +190,18 @@ p {
 .headline p {
 	max-width: 760px;
 	margin: 0 auto;
-	font-size: 1.05rem;
+	font-size: var(--step-0);
 	font-weight: 500;
 	color: var(--muted);
 }
 
 .headline h2 {
 	margin-bottom: 14px;
+}
+
+#profile-subtitle {
+	font-size: var(--step-1);
+	line-height: 1.75;
 }
 
 .nomargin {
@@ -223,7 +238,7 @@ p {
 
 .icon-list > li > i {
 	width: 22px;
-	font-size: 1.1rem;
+	font-size: var(--step-0);
 	color: var(--accent);
 	text-align: center;
 }
@@ -241,8 +256,8 @@ p {
 	align-items: center;
 	justify-content: center;
 	gap: 8px;
-	font-family: 'Space Grotesk', sans-serif;
-	font-size: 0.95rem;
+	font-family: var(--font-display);
+	font-size: var(--step--1);
 	font-weight: 700;
 	letter-spacing: 0.02em;
 	padding: 15px 24px;
@@ -306,7 +321,7 @@ p {
 .form-control {
 	height: 58px;
 	padding: 16px 18px;
-	font-size: 1rem;
+	font-size: var(--step-0);
 	color: var(--text);
 	background: rgba(255, 255, 255, 0.84);
 	border: 1px solid rgba(255, 255, 255, 0.34);
@@ -364,32 +379,32 @@ textarea.form-control {
 	border-radius: 0;
 	border: 0;
 	padding: 20px 0;
-	text-transform: uppercase;
 }
 
 .navbar .container {
 	background: rgba(15, 21, 27, 0.16);
 	border: 1px solid rgba(255, 255, 255, 0.12);
 	border-radius: 999px;
-	padding: 12px var(--container-pad);
+	padding: 16px 30px;
 	backdrop-filter: blur(16px);
 	box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
 }
 
 .navbar-custom .navbar-brand {
-	font: 700 1rem/1.2 'Space Grotesk', sans-serif;
-	letter-spacing: 0.16em;
+	font: 700 var(--step-0)/1.2 var(--font-display);
+	letter-spacing: 0.1em;
 	color: #fff;
 }
 
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
 	position: relative;
-	padding: 10px 14px;
+	padding: 12px 16px;
 	color: rgba(255, 255, 255, 0.84);
-	font-size: 0.74rem;
+	font-size: var(--step-0);
 	font-weight: 700;
-	letter-spacing: 0.14em;
+	letter-spacing: 0.06em;
+	text-transform: none;
 }
 
 .navbar-custom .navbar-nav > li > a::after {
@@ -424,8 +439,8 @@ textarea.form-control {
 }
 
 .navbar-custom .navbar-nav > li img {
-	width: 18px;
-	height: 18px;
+	width: 20px;
+	height: 20px;
 	border-radius: 50%;
 	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.24);
 }
@@ -533,10 +548,10 @@ textarea.form-control {
 
 .hello h3 {
 	margin: 0;
-	font-family: 'DM Sans', sans-serif;
-	font-size: clamp(1.2rem, 2vw, 1.5rem);
+	font-family: var(--font-body);
+	font-size: var(--step-1);
 	font-weight: 500;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.01em;
 	text-transform: none;
 	color: rgba(255, 255, 255, 0.8);
 }
@@ -589,6 +604,15 @@ textarea.form-control {
 	align-items: start;
 }
 
+#profile .col-md-6.col-sm-12.wow {
+	padding: 32px 36px;
+	border: 1px solid var(--line);
+	border-radius: var(--radius-xl);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(255, 248, 238, 0.9));
+	box-shadow: var(--shadow-sm);
+	backdrop-filter: blur(16px);
+}
+
 .avatar {
 	width: 100%;
 	border-radius: 30px;
@@ -631,13 +655,23 @@ textarea.form-control {
 
 .profile-widget h3,
 #profile-bio-title {
-	font-size: 1.15rem;
-	margin-bottom: 18px;
+	font-size: var(--step-1);
+	margin-bottom: 20px;
 	text-transform: none;
 }
 
+#profile-bio-title {
+	font-size: var(--step-2);
+	line-height: 1.2;
+}
+
 #profile-bio {
-	font-size: 1.04rem;
+	max-width: none;
+	margin-bottom: 0;
+	font-size: var(--step-0);
+	line-height: 1.8;
+	text-wrap: pretty;
+	color: #546271;
 }
 
 .widget-social {
@@ -685,7 +719,7 @@ textarea.form-control {
 
 .stat .stat-icon {
 	margin-bottom: 12px;
-	font-size: 1.3rem;
+	font-size: var(--step-1);
 	color: var(--accent);
 }
 
@@ -694,21 +728,21 @@ textarea.form-control {
 	align-items: center;
 	gap: 12px;
 	margin: 0;
-	font-size: clamp(2rem, 5vw, 3rem);
+	font-size: var(--step-3);
 }
 
 .stat .stat-icon i {
 	margin-right: 0;
-	font-size: 1.2rem;
+	font-size: var(--step-1);
 }
 
 .stat h3 {
 	margin: 0;
-	font-size: 0.95rem;
-	font-family: 'DM Sans', sans-serif;
+	font-size: var(--step--1);
+	font-family: var(--font-body);
 	font-weight: 700;
 	letter-spacing: 0.03em;
-	text-transform: uppercase;
+	text-transform: none;
 	color: var(--muted);
 }
 
@@ -743,7 +777,7 @@ textarea.form-control {
 	margin: 0 0 18px;
 	border-radius: 20px;
 	background: var(--accent-soft);
-	font-size: 1.4rem;
+	font-size: var(--step-1);
 	color: var(--accent);
 }
 
@@ -799,9 +833,9 @@ textarea.form-control {
 #stats-title,
 #status-section-title {
 	margin: 0 0 22px;
-	font-size: 1.05rem;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
+	font-size: var(--step-0);
+	letter-spacing: 0.04em;
+	text-transform: none;
 	color: var(--muted);
 }
 
@@ -836,6 +870,12 @@ textarea.form-control {
 	min-width: 0;
 }
 
+.resume-item p,
+.resume-item li {
+	font-size: var(--step-0);
+	line-height: 1.75;
+}
+
 .resume-place h4,
 .resume-place i,
 .resume-place p,
@@ -844,7 +884,7 @@ textarea.form-control {
 }
 
 .resume-place h4 {
-	font-size: 1rem;
+	font-size: var(--step-0);
 	line-height: 1.35;
 }
 
@@ -861,7 +901,7 @@ textarea.form-control {
 .resume-place > i,
 .resume-place > h4 > i {
 	margin-right: 6px;
-	font-size: 0.95rem;
+	font-size: var(--step--1);
 	color: rgba(255, 255, 255, 0.82);
 }
 
@@ -944,7 +984,7 @@ textarea.form-control {
 }
 
 #footer .copy {
-	font-size: 0.9rem;
+	font-size: var(--step--1);
 	margin: 0;
 	text-align: center;
 }
@@ -979,7 +1019,7 @@ textarea.form-control {
 
 .status-mes h4 {
 	margin-top: 30px;
-	font-size: 0.95rem;
+	font-size: var(--step--1);
 	color: var(--text);
 }
 
@@ -1082,10 +1122,6 @@ textarea.form-control {
 		gap: 14px;
 	}
 
-	body {
-		font-size: 15px;
-	}
-
 	.wrapper {
 		text-align: center;
 	}
@@ -1109,7 +1145,7 @@ textarea.form-control {
 	.navbar-color .container,
 	.custom-collapse .container {
 		border-radius: 24px;
-		padding: 10px 16px;
+		padding: 12px 18px;
 	}
 
 	.custom-collapse .navbar-nav {
@@ -1153,9 +1189,21 @@ textarea.form-control {
 	#profile,
 	#profile .headline,
 	#profile .profile-widget,
+	#profile .col-md-6.col-sm-12.wow,
 	#profile #profile-bio-title,
 	#profile #profile-bio {
 		text-align: center;
+	}
+
+	#profile .col-md-6.col-sm-12.wow {
+		padding: 24px 20px;
+		margin-left: 12px;
+		margin-right: 12px;
+		width: calc(100% - 24px);
+	}
+
+	#profile-bio {
+		max-width: none;
 	}
 
 	#stats .stat,
@@ -1181,6 +1229,9 @@ textarea.form-control {
 
 	.callout .col-md-9.headline {
 		padding: 24px 20px;
+		margin-left: 12px !important;
+		margin-right: 12px !important;
+		width: calc(100% - 24px);
 	}
 
 	#contact .col-md-6 + .col-md-6 {
