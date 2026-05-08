@@ -30,7 +30,7 @@
 }
 
 html {
-	scroll-behavior: smooth;
+	scroll-behavior: auto;
 }
 
 body {
@@ -154,6 +154,7 @@ p {
 .callout {
 	position: relative;
 	padding: 112px 0;
+	scroll-margin-top: 110px;
 }
 
 .section::before,
@@ -438,11 +439,6 @@ textarea.form-control {
 	background: #fff;
 	height: 2px;
 	width: 22px;
-}
-
-.navbar-color,
-.custom-collapse {
-	padding: 12px 0;
 }
 
 .navbar-color .container,

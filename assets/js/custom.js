@@ -33,10 +33,24 @@
 
 	$(document).ready(function() {
 
+		var navbar = $('.navbar');
+
+		function getNavbarOffset() {
+			return navbar.outerHeight() + 12;
+		}
+
+		function syncNavbarState() {
+			var isCompact = $(window).width() <= 767;
+			var isScrolled = $(window).scrollTop() >= Math.max(navbar.outerHeight(), 40);
+
+			navbar.toggleClass('navbar-color', isScrolled);
+			navbar.toggleClass('custom-collapse', isCompact);
+		}
+
 		$('body').scrollspy({
 			target: '.navbar-custom',
-			offset: 50
-		})
+			offset: getNavbarOffset()
+		});
 
 		$(document).on('click','.navbar-collapse.in',function(e) {
 			if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
@@ -44,10 +58,22 @@
 			}
 		});
 
-		$('a[href*=#]').bind("click", function(e){
+		$('a[href^="#"]').bind("click", function(e){
 			var anchor = $(this);
+			var targetSelector = anchor.attr('href');
+
+			if(!targetSelector || targetSelector === '#') {
+				return;
+			}
+
+			var target = $(targetSelector);
+
+			if(!target.length) {
+				return;
+			}
+
 			$('html, body').stop().animate({
-				scrollTop: $(anchor.attr('href')).offset().top
+				scrollTop: Math.max(target.offset().top - getNavbarOffset(), 0)
 			}, 1000);
 			e.preventDefault();
 		});
@@ -56,30 +82,9 @@
 		 * Navbar
 		/* ---------------------------------------------- */
 
-		var navbar = $('.navbar');
-		var navHeight = navbar.height();
-
-		$(window).scroll(function() {
-			if($(this).scrollTop() >= navHeight) {
-				navbar.addClass('navbar-color');
-			}
-			else {
-				navbar.removeClass('navbar-color');
-			}
-		});
-
-		if($(window).width() <= 767) {
-			navbar.addClass('custom-collapse');
-		}
-
-		$(window).resize(function() {
-			if($(this).width() <= 767) {
-				navbar.addClass('custom-collapse');
-			}
-			else {
-				navbar.removeClass('custom-collapse');
-			}
-		});
+		$(window).on('scroll resize', syncNavbarState);
+		syncNavbarState();
+		$('body').scrollspy('refresh');
 
 		/* ---------------------------------------------- /*
 		 * Count to
