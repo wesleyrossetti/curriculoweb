@@ -608,7 +608,7 @@ textarea.form-control {
 	padding: 32px 36px;
 	border: 1px solid var(--line);
 	border-radius: var(--radius-xl);
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(255, 248, 238, 0.9));
+	background: var(--surface);
 	box-shadow: var(--shadow-sm);
 	backdrop-filter: blur(16px);
 }
