@@ -833,10 +833,10 @@ textarea.form-control {
 #stats-title,
 #status-section-title {
 	margin: 0 0 22px;
-	font-size: var(--step-0);
-	letter-spacing: 0.04em;
+	font-size: var(--step-2);
+	letter-spacing: -0.01em;
 	text-transform: none;
-	color: var(--muted);
+	color: var(--text);
 }
 
 .resume-entry .resume-item,
