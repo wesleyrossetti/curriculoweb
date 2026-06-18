@@ -48,11 +48,11 @@ BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 168 Tm (Pós-graduação Segurança da 
 BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 151 Tm (jan de 2025 - dez de 2025) Tj ET
 BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 137 Tm (Especialização voltada à proteção de ambientes, gestão de riscos, boas práticas de segurança e) Tj ET
 BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 122 Tm (fortalecimento da governança em tecnologia.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 430.6 38 Tm (Atualizado em 08/05/2026) Tj ET
+BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 430.6 38 Tm (Atualizado em 18/06/2026) Tj ET
 endstream
 endobj
 4 0 obj
-<< /Length 5624 >>
+<< /Length 5588 >>
 stream
 0.960 0.940 0.900 rg 0 0 595 842 re f
 0.850 0.420 0.190 rg 0 824 595 18 re f
@@ -64,126 +64,129 @@ BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 717 Tm (Atuação na implantação, adm
 BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 702 Tm (premises e cloud, com foco em alta disponibilidade, segurança, performance e escalabilidade.) Tj ET
 BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 687 Tm (Experiência na operação de ambientes críticos em produção, incluindo servidores Linux e Windows,) Tj ET
 BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 672 Tm (virtualização, containers, Kubernetes, automação de processos, pipelines CI/CD, observabilidade,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 657 Tm (storage, backup, recuperação de desastres e suporte técnico avançado.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 642 Tm (- Infraestrutura on-premises e cloud) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 628 Tm (- Alta disponibilidade, segurança e escalabilidade) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 614 Tm (- Linux, Windows, virtualização e containers) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 600 Tm (- Kubernetes, automação e CI/CD) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 586 Tm (- Prometheus, Grafana e logging) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 572 Tm (- Storage, backup e recuperação de desastres) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 558 Tm (- Troubleshooting e sustentação de ambientes críticos) Tj ET
-BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 538 Tm (Técnico de Suporte | Hospital Santa Marta) Tj ET
-BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 521 Tm (fev de 2022 - jan de 2023 | Presencial - Brasília, Distrito Federal, Brasil) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 507 Tm (Atuação na implantação, administração e sustentação em ambiente critico em regime de plantao de) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 492 Tm (12 horas, com foco em alta disponibilidade, segurança, performance e escalabilidade. Experiência) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 477 Tm (na operação de ambientes críticos em produção, incluindo servidores Linux e Windows,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 462 Tm (virtualização, containers, Kubernetes, automação de processos, pipelines CI/CD, observabilidade,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 447 Tm (storage, backup, recuperação de desastres e suporte técnico avançado.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 432 Tm (- Infraestrutura on-premises) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 418 Tm (- Alta disponibilidade, segurança e escalabilidade) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 404 Tm (- Linux, Windows, virtualização) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 390 Tm (- Troubleshooting e sustentação de ambientes críticos) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 376 Tm (- Monitoramento e resposta a incidentes\(zabbix, nagios, cacti\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 362 Tm (- Suporte técnico avançado em ambiente hospitalar\(Tasy\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 348 Tm (- Manutenção de sistemas críticos de saúde) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 334 Tm (- Garantia de continuidade operacional) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 320 Tm (- Colaboração com equipes multidisciplinares) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 306 Tm (- Documentação e melhoria de processos) Tj ET
-BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 286 Tm (Analista de infraestrutura de TI | TIQUI Soluções em Tecnologia) Tj ET
-BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 269 Tm (jul de 2021 - jul de 2023 | Brasília, Distrito Federal, Brasil) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 255 Tm (Atuação em infraestrutura de TI com foco em operação, suporte e administração de ambientes) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 240 Tm (corporativos, incluindo tecnologias Microsoft, resolução de incidentes e sustentação de serviços) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 225 Tm (críticos.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 210 Tm (- Infraestrutura corporativa) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 196 Tm (- Tecnologias Microsoft) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 182 Tm (- Resolução de problemas) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 168 Tm (- Sustentação operacional) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 154 Tm (- Suporte técnico especializado) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 140 Tm (- Virtualização \(VMWare\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 126 Tm (- Automação de sistemas) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 112 Tm (- Desenvolvimento e suporte) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 98 Tm (- Soluções de embarcados \(Raspberry, ARM em geral\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 84 Tm (- Orquestração Docker) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 70 Tm (- Databases \(SQL and NoSQL\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 430.6 38 Tm (Atualizado em 08/05/2026) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 657 Tm (storage, backup, recuperação de desastres, suporte técnico avançado, comunicação e marketing na) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 642 Tm (área de TI.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 627 Tm (- Infraestrutura on-premises e cloud) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 613 Tm (- Alta disponibilidade, segurança e escalabilidade) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 599 Tm (- Linux, Windows, virtualização e containers) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 585 Tm (- Kubernetes, automação e CI/CD) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 571 Tm (- Prometheus, Grafana e logging) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 557 Tm (- Comunicação e marketing na área de TI) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 543 Tm (- Storage, backup e recuperação de desastres) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 529 Tm (- Troubleshooting e sustentação de ambientes críticos) Tj ET
+BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 509 Tm (Técnico de Suporte | Hospital Santa Marta) Tj ET
+BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 492 Tm (fev de 2022 - jan de 2023 | Presencial - Brasília, Distrito Federal, Brasil) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 478 Tm (Atuação na implantação, administração e sustentação em ambiente critico em regime de plantao de) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 463 Tm (12 horas, com foco em alta disponibilidade, segurança, performance e escalabilidade. Experiência) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 448 Tm (na operação de ambientes críticos em produção, incluindo servidores Linux e Windows,) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 433 Tm (virtualização, containers, Kubernetes, automação de processos, pipelines CI/CD, observabilidade,) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 418 Tm (storage, backup, recuperação de desastres e suporte técnico avançado.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 403 Tm (- Infraestrutura on-premises) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 389 Tm (- Alta disponibilidade, segurança e escalabilidade) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 375 Tm (- Linux, Windows, virtualização) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 361 Tm (- Troubleshooting e sustentação de ambientes críticos) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 347 Tm (- Monitoramento e resposta a incidentes\(zabbix, nagios, cacti\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 333 Tm (- Suporte técnico avançado em ambiente hospitalar\(Tasy\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 319 Tm (- Manutenção de sistemas críticos de saúde) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 305 Tm (- Garantia de continuidade operacional) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 291 Tm (- Colaboração com equipes multidisciplinares) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 277 Tm (- Documentação e melhoria de processos) Tj ET
+BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 257 Tm (Analista de infraestrutura de TI | TIQUI Soluções em Tecnologia) Tj ET
+BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 240 Tm (jul de 2021 - jul de 2023 | Brasília, Distrito Federal, Brasil) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 226 Tm (Atuação em infraestrutura de TI com foco em operação, suporte e administração de ambientes) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 211 Tm (corporativos, incluindo tecnologias Microsoft, resolução de incidentes, sustentação de serviços) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 196 Tm (críticos, comunicação e marketing na área de TI.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 181 Tm (- Infraestrutura corporativa) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 167 Tm (- Tecnologias Microsoft) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 153 Tm (- Resolução de problemas) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 139 Tm (- Sustentação operacional) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 125 Tm (- Suporte técnico especializado) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 111 Tm (- Comunicação e marketing na área de TI) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 97 Tm (- Virtualização \(VMWare\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 83 Tm (- Automação de sistemas) Tj ET
+BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 430.6 38 Tm (Atualizado em 18/06/2026) Tj ET
 endstream
 endobj
 5 0 obj
-<< /Length 4681 >>
+<< /Length 4967 >>
 stream
 0.960 0.940 0.900 rg 0 0 595 842 re f
 0.850 0.420 0.190 rg 0 824 595 18 re f
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 782 Tm (- Cluster Solutions) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 768 Tm (- Gerenciamento de Redes) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 754 Tm (- Software Livre em geral \(Linux & BSD\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 740 Tm (- Gerenciamento de Redes) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 726 Tm (- Software Livre em geral) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 712 Tm (- Ambientes heterogêneos \(Principalmente SAMBA4 – Active Directory\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 698 Tm (- Virtualização de ambientes) Tj ET
-BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 678 Tm (Analista de infraestrutura de TI | Menu Tecnologia) Tj ET
-BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 661 Tm (set de 2018 - set de 2021 | Brasília e Região) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 647 Tm (Responsável pela operação e suporte de infraestrutura, com forte atuação em ambientes Microsoft,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 632 Tm (atendimento a incidentes, manutenção de serviços e estabilidade operacional.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 617 Tm (- Administração de infraestrutura) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 603 Tm (- Tecnologias Microsoft) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 589 Tm (- Troubleshooting) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 575 Tm (- Suporte a usuários e serviços) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 561 Tm (- Continuidade operacional) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 547 Tm (- Virtualização \(VMWare\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 533 Tm (- Automação de sistemas) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 519 Tm (- Desenvolvimento e suporte) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 505 Tm (- Soluções de embarcados \(Raspberry, ARM em geral\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 491 Tm (- Orquestração Docker) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 477 Tm (- Databases \(SQL and NoSQL\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 463 Tm (- Cluster Solutions) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 449 Tm (- Gerenciamento de Redes) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 435 Tm (- Software Livre em geral \(Linux & BSD\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 421 Tm (- Gerenciamento de Redes) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 407 Tm (- Software Livre em geral) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 393 Tm (- Ambientes heterogêneos \(Principalmente SAMBA4 – Active Directory\)) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 379 Tm (- Virtualização de ambientes) Tj ET
-BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 359 Tm (Analista de suporte técnico | rmc tecnologia) Tj ET
-BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 342 Tm (jun de 2017 - ago de 2018 | Brasília e Região) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 328 Tm (Atuação em suporte técnico e atendimento a incidentes, com foco em ambientes Microsoft, resolução) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 313 Tm (de problemas e sustentação de infraestrutura para operação diária.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 298 Tm (- Suporte técnico) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 284 Tm (- Tecnologias Microsoft) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 270 Tm (- Resolução de problemas) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 256 Tm (- Atendimento a usuários) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 242 Tm (- Sustentação de ambiente) Tj ET
-BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 222 Tm (Suporte técnico | JCGontijo Engenharia S.A) Tj ET
-BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 205 Tm (dez de 2016 - fev de 2017 | Brasília e Região) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 191 Tm (Atuação em suporte técnico voltado à rotina corporativa, resolução de incidentes, suporte a) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 176 Tm (usuários e manutenção da operação de TI.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 161 Tm (- Suporte ao usuário) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 147 Tm (- Resolução de incidentes) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 133 Tm (- Rotina corporativa de TI) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 119 Tm (- Manutenção operacional) Tj ET
-BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 430.6 38 Tm (Atualizado em 08/05/2026) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 782 Tm (- Desenvolvimento e suporte) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 768 Tm (- Soluções de embarcados \(Raspberry, ARM em geral\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 754 Tm (- Orquestração Docker) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 740 Tm (- Databases \(SQL and NoSQL\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 726 Tm (- Cluster Solutions) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 712 Tm (- Gerenciamento de Redes) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 698 Tm (- Software Livre em geral \(Linux & BSD\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 684 Tm (- Gerenciamento de Redes) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 670 Tm (- Software Livre em geral) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 656 Tm (- Ambientes heterogêneos \(Principalmente SAMBA4 – Active Directory\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 642 Tm (- Virtualização de ambientes) Tj ET
+BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 622 Tm (Analista de infraestrutura de TI | Menu Tecnologia) Tj ET
+BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 605 Tm (set de 2018 - set de 2021 | Brasília e Região) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 591 Tm (Responsável pela operação e suporte de infraestrutura, com forte atuação em ambientes Microsoft,) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 576 Tm (atendimento a incidentes, manutenção de serviços e estabilidade operacional.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 561 Tm (- Administração de infraestrutura) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 547 Tm (- Tecnologias Microsoft) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 533 Tm (- Troubleshooting) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 519 Tm (- Suporte a usuários e serviços) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 505 Tm (- Continuidade operacional) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 491 Tm (- Virtualização \(VMWare\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 477 Tm (- Automação de sistemas) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 463 Tm (- Desenvolvimento e suporte) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 449 Tm (- Soluções de embarcados \(Raspberry, ARM em geral\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 435 Tm (- Orquestração Docker) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 421 Tm (- Databases \(SQL and NoSQL\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 407 Tm (- Cluster Solutions) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 393 Tm (- Gerenciamento de Redes) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 379 Tm (- Software Livre em geral \(Linux & BSD\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 365 Tm (- Gerenciamento de Redes) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 351 Tm (- Software Livre em geral) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 337 Tm (- Ambientes heterogêneos \(Principalmente SAMBA4 – Active Directory\)) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 323 Tm (- Virtualização de ambientes) Tj ET
+BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 303 Tm (Analista de suporte técnico | rmc tecnologia) Tj ET
+BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 286 Tm (jun de 2017 - ago de 2018 | Brasília e Região) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 272 Tm (Atuação em suporte técnico e atendimento a incidentes, com foco em ambientes Microsoft, resolução) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 257 Tm (de problemas e sustentação de infraestrutura para operação diária.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 242 Tm (- Suporte técnico) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 228 Tm (- Tecnologias Microsoft) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 214 Tm (- Resolução de problemas) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 200 Tm (- Atendimento a usuários) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 186 Tm (- Sustentação de ambiente) Tj ET
+BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 166 Tm (Suporte técnico | JCGontijo Engenharia S.A) Tj ET
+BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 149 Tm (dez de 2016 - fev de 2017 | Brasília e Região) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 135 Tm (Atuação em suporte técnico voltado à rotina corporativa, resolução de incidentes, suporte a) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 120 Tm (usuários e manutenção da operação de TI.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 105 Tm (- Suporte ao usuário) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 91 Tm (- Resolução de incidentes) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 77 Tm (- Rotina corporativa de TI) Tj ET
+BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 430.6 38 Tm (Atualizado em 18/06/2026) Tj ET
 endstream
 endobj
 6 0 obj
-<< /Length 1822 >>
+<< /Length 1907 >>
 stream
 0.960 0.940 0.900 rg 0 0 595 842 re f
 0.850 0.420 0.190 rg 0 824 595 18 re f
-BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 782 Tm (Analista de suporte técnico | rmc tecnologia) Tj ET
-BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 765 Tm (nov de 2016 - dez de 2016 | Brasília e Região) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 751 Tm (Atuação em suporte técnico com foco em ambientes Microsoft, atendimento a chamados e resolução de) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 736 Tm (problemas para continuidade da operação.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 721 Tm (- Suporte técnico) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 707 Tm (- Tecnologias Microsoft) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 693 Tm (- Atendimento a chamados) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 679 Tm (- Resolução de problemas) Tj ET
-BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 659 Tm (Soldado \(Auxiliar de suporte TI\) | Exército Brasileiro) Tj ET
-BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 642 Tm (mar de 2015 - ago de 2016 | Brasília e Região) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 628 Tm (Atuação em suporte de TI dentro de ambiente institucional, com foco em suporte técnico,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 613 Tm (organização operacional e atendimento a demandas de infraestrutura e usuários.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 598 Tm (- Suporte técnico institucional) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 584 Tm (- Tecnologias Microsoft) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 570 Tm (- Resolução de problemas) Tj ET
-BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 556 Tm (- Rotina operacional de TI) Tj ET
-BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 430.6 38 Tm (Atualizado em 08/05/2026) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 782 Tm (- Manutenção operacional) Tj ET
+BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 762 Tm (Analista de suporte técnico | rmc tecnologia) Tj ET
+BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 745 Tm (nov de 2016 - dez de 2016 | Brasília e Região) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 731 Tm (Atuação em suporte técnico com foco em ambientes Microsoft, atendimento a chamados e resolução de) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 716 Tm (problemas para continuidade da operação.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 701 Tm (- Suporte técnico) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 687 Tm (- Tecnologias Microsoft) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 673 Tm (- Atendimento a chamados) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 659 Tm (- Resolução de problemas) Tj ET
+BT 0.160 0.190 0.240 rg /F2 12 Tf 1 0 0 1 54 639 Tm (Soldado \(Auxiliar de suporte TI\) | Exército Brasileiro) Tj ET
+BT 0.850 0.420 0.190 rg /F2 10 Tf 1 0 0 1 54 622 Tm (mar de 2015 - ago de 2016 | Brasília e Região) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 608 Tm (Atuação em suporte de TI dentro de ambiente institucional, com foco em suporte técnico,) Tj ET
+BT 0.100 0.120 0.160 rg /F1 10 Tf 1 0 0 1 54 593 Tm (organização operacional e atendimento a demandas de infraestrutura e usuários.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 578 Tm (- Suporte técnico institucional) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 564 Tm (- Tecnologias Microsoft) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 550 Tm (- Resolução de problemas) Tj ET
+BT 0.350 0.390 0.440 rg /F1 10 Tf 1 0 0 1 64 536 Tm (- Rotina operacional de TI) Tj ET
+BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 430.6 38 Tm (Atualizado em 18/06/2026) Tj ET
 endstream
 endobj
 7 0 obj
@@ -211,16 +214,16 @@ xref
 0000000112 00000 n 
 0000000214 00000 n 
 0000004104 00000 n 
-0000009780 00000 n 
-0000014513 00000 n 
-0000016387 00000 n 
-0000016464 00000 n 
-0000016600 00000 n 
-0000016736 00000 n 
-0000016873 00000 n 
-0000017010 00000 n 
+0000009744 00000 n 
+0000014763 00000 n 
+0000016722 00000 n 
+0000016799 00000 n 
+0000016935 00000 n 
+0000017071 00000 n 
+0000017208 00000 n 
+0000017345 00000 n 
 trailer
 << /Size 13 /Root 12 0 R >>
 startxref
-17060
+17395
 %%EOF

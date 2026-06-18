@@ -203,13 +203,14 @@ window.siteData = {
         "company": "Nuvem Online",
         "period": "jul de 2021 - fev de 2026",
         "location": "Remoto",
-        "description": "Atuação na implantação, administração e sustentação de ambientes de infraestrutura de TI on-premises e cloud, com foco em alta disponibilidade, segurança, performance e escalabilidade. Experiência na operação de ambientes críticos em produção, incluindo servidores Linux e Windows, virtualização, containers, Kubernetes, automação de processos, pipelines CI/CD, observabilidade, storage, backup, recuperação de desastres e suporte técnico avançado.",
+        "description": "Atuação na implantação, administração e sustentação de ambientes de infraestrutura de TI on-premises e cloud, com foco em alta disponibilidade, segurança, performance e escalabilidade. Experiência na operação de ambientes críticos em produção, incluindo servidores Linux e Windows, virtualização, containers, Kubernetes, automação de processos, pipelines CI/CD, observabilidade, storage, backup, recuperação de desastres, suporte técnico avançado, comunicação e marketing na área de TI.",
         "items": [
           "Infraestrutura on-premises e cloud",
           "Alta disponibilidade, segurança e escalabilidade",
           "Linux, Windows, virtualização e containers",
           "Kubernetes, automação e CI/CD",
           "Prometheus, Grafana e logging",
+          "Comunicação e marketing na área de TI",
           "Storage, backup e recuperação de desastres",
           "Troubleshooting e sustentação de ambientes críticos"
         ]
@@ -238,13 +239,14 @@ window.siteData = {
         "company": "TIQUI Soluções em Tecnologia",
         "period": "jul de 2021 - jul de 2023",
         "location": "Brasília, Distrito Federal, Brasil",
-        "description": "Atuação em infraestrutura de TI com foco em operação, suporte e administração de ambientes corporativos, incluindo tecnologias Microsoft, resolução de incidentes e sustentação de serviços críticos.",
+        "description": "Atuação em infraestrutura de TI com foco em operação, suporte e administração de ambientes corporativos, incluindo tecnologias Microsoft, resolução de incidentes, sustentação de serviços críticos, comunicação e marketing na área de TI.",
         "items": [
           "Infraestrutura corporativa",
           "Tecnologias Microsoft",
           "Resolução de problemas",
           "Sustentação operacional",
           "Suporte técnico especializado",
+          "Comunicação e marketing na área de TI",
           "Virtualização (VMWare)",
           "Automação de sistemas",
           "Desenvolvimento e suporte",
@@ -491,13 +493,14 @@ window.siteData = {
             "company": "Nuvem.online",
             "period": "Jul 2021 - Feb 2026",
             "location": "Remote",
-            "description": "Worked on the deployment, administration and sustainment of on-premises and cloud IT infrastructure, focused on high availability, security, performance and scalability. Experience in critical production environments including Linux and Windows servers, virtualization, containers, Kubernetes, process automation, CI/CD pipelines, observability, storage, backup, disaster recovery and advanced support.",
+            "description": "Worked on the deployment, administration and sustainment of on-premises and cloud IT infrastructure, focused on high availability, security, performance and scalability. Experience in critical production environments including Linux and Windows servers, virtualization, containers, Kubernetes, process automation, CI/CD pipelines, observability, storage, backup, disaster recovery, advanced support, communication and marketing in IT.",
             "items": [
               "On-premises and cloud infrastructure",
               "High availability, security and scalability",
               "Linux, Windows, virtualization and containers",
               "Kubernetes, automation and CI/CD",
               "Prometheus, Grafana and logging",
+              "Communication and marketing in IT",
               "Storage, backup and disaster recovery",
               "Troubleshooting and critical environment support"
             ]
@@ -507,13 +510,14 @@ window.siteData = {
             "company": "TIQUI Soluções em Tecnologia",
             "period": "Jul 2021 - Jul 2023",
             "location": "Brasilia, Federal District, Brazil",
-            "description": "Worked in IT infrastructure with focus on operations, support and administration of corporate environments, including Microsoft technologies, incident resolution and sustainment of critical services.",
+            "description": "Worked in IT infrastructure with focus on operations, support and administration of corporate environments, including Microsoft technologies, incident resolution, sustainment of critical services, communication and marketing in IT.",
             "items": [
               "Corporate infrastructure",
               "Microsoft technologies",
               "Troubleshooting",
               "Operational sustainment",
-              "Specialized technical support"
+              "Specialized technical support",
+              "Communication and marketing in IT"
             ]
           },
           {
