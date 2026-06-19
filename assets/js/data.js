@@ -68,7 +68,7 @@ window.siteData = {
     "photo": "assets/images/profile-photo.jpg",
     "photo_alt": "Wesley Rossetti",
     "bio_title": "Perfil Profissional",
-    "bio": "Minha trajetória em tecnologia começou cedo, ainda nos tempos do MSX, e evoluiu junto com a transformação da infraestrutura digital. Ao longo dos anos, atuei em campo e em ambientes corporativos, passando por redes, cabeamento, suporte, datacenters, virtualização, software livre, automação e desenvolvimento. Hoje, reúno essa vivência prática para desenhar, implantar e sustentar ambientes robustos, eficientes e orientados a resultado.",
+    "bio": "Profissional de Tecnologia da Informação com trajetória construída desde os primórdios da computação pessoal, acompanhando e participando ativamente da evolução tecnológica das últimas décadas. Possuo ampla experiência em infraestrutura, redes, virtualização, cloud, automação, software livre, segurança da informação e sustentação de ambientes críticos.\n\nAtuei em diferentes níveis da operação de TI, desde a implementação e suporte em campo até a arquitetura e administração de ambientes corporativos complexos. Minha experiência me permite transformar desafios tecnológicos em soluções eficientes, escaláveis e seguras, contribuindo diretamente para a estabilidade operacional, a inovação e os resultados do negócio.",
     "skills_title": "Especialidades",
     "skills": [
       {
