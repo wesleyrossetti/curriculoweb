@@ -9,6 +9,7 @@
 	<title></title>
 
 	<link rel="icon" type="image/svg+xml" href="favicon.svg">
+	<link rel="alternate icon" type="image/x-icon" href="favicon.ico">
 
 	<!-- CSS -->
 	<!-- Bootstrap core CSS -->
@@ -183,6 +184,22 @@
 		</section>
 		<!-- Current status callout end -->
 
+		<!-- Certificates section start -->
+		<section id="certificates" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 headline wow bounceInDown">
+						<h2 id="certificates-title"></h2>
+						<p id="certificates-subtitle"></p>
+					</div>
+					<div class="col-md-12">
+						<div id="certificates-carousel" class="owl-carousel owl-theme certificates-carousel"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Certificates section end -->
+
 		<!-- Resume section start -->
 		<section id="resume" class="section">
 			<div class="container">
@@ -204,6 +221,16 @@
 					</div>
 				</div>
 
+				<!-- Technical skills -->
+				<div class="row resume-items" id="resume-technical-skills-section">
+					<div class="col-md-12 wow bounceInLeft resume-section-heading">
+						<h3 id="resume-technical-skills-title"></h3>
+					</div>
+					<div class="col-md-12">
+						<div class="resume-group" id="resume-technical-skills-items"></div>
+					</div>
+				</div>
+
 				<!-- Experience -->
 				<div class="row resume-items">
 					<div class="col-md-12 wow bounceInLeft resume-section-heading">
@@ -211,6 +238,26 @@
 					</div>
 					<div class="col-md-12">
 						<div class="resume-group" id="resume-experience-items"></div>
+					</div>
+				</div>
+
+				<!-- Certifications -->
+				<div class="row resume-items" id="resume-certifications-section">
+					<div class="col-md-12 wow bounceInLeft resume-section-heading">
+						<h3 id="resume-certifications-title"></h3>
+					</div>
+					<div class="col-md-12">
+						<div class="resume-group" id="resume-certifications-items"></div>
+					</div>
+				</div>
+
+				<!-- Languages -->
+				<div class="row resume-items" id="resume-languages-section">
+					<div class="col-md-12 wow bounceInLeft resume-section-heading">
+						<h3 id="resume-languages-title"></h3>
+					</div>
+					<div class="col-md-12">
+						<div class="resume-group" id="resume-languages-items"></div>
 					</div>
 				</div>
 
@@ -292,22 +339,51 @@
 
 	<script>
 		/* Contact form — sends via Web3Forms (https://web3forms.com) */
+		var contactResponseTimer;
+
+		function showContactResponse(html, autoHide) {
+			var resp = document.querySelector('.ajax-response');
+			if (!resp) return;
+
+			window.clearTimeout(contactResponseTimer);
+			resp.innerHTML = html;
+			resp.style.display = 'block';
+
+			if (autoHide) {
+				contactResponseTimer = window.setTimeout(function () {
+					resp.style.display = 'none';
+					resp.innerHTML = '';
+				}, 5000);
+			}
+		}
+
+		function clearContactResponse() {
+			var resp = document.querySelector('.ajax-response');
+			if (!resp) return;
+
+			window.clearTimeout(contactResponseTimer);
+			resp.style.display = 'none';
+			resp.innerHTML = '';
+		}
+
+		['name', 'email', 'message'].forEach(function (id) {
+			var field = document.getElementById(id);
+			if (field) field.addEventListener('input', clearContactResponse);
+		});
+
 		function sendContactForm() {
 			var key     = window._web3formsKey || '';
 			var name    = document.getElementById('name').value.trim();
 			var email   = document.getElementById('email').value.trim();
 			var message = document.getElementById('message').value.trim();
 			var btn     = document.getElementById('contact-submit');
-			var resp    = document.querySelector('.ajax-response');
 
 			if (!name || !email || !message) {
-				resp.innerHTML = '<span style="color:#e74c3c">Preencha todos os campos.</span>';
-				resp.style.display = 'block';
+				showContactResponse('<span style="color:#e74c3c">Preencha todos os campos.</span>', false);
 				return;
 			}
 			if (!key || key === 'COLOQUE_SUA_CHAVE_AQUI') {
-				resp.innerHTML = '<span style="color:#e74c3c">Configure a chave Web3Forms em data.json.</span>';
-				resp.style.display = 'block';
+				showContactResponse('<span style="color:#e74c3c">Configure a chave Web3Forms em data.json.</span>', false);
 				return;
 			}
 
@@ -322,18 +398,16 @@
 			.then(function (r) { return r.json(); })
 			.then(function (data) {
 				if (data.success) {
-					resp.innerHTML = '<span style="color:#2ecc71">Mensagem enviada com sucesso!</span>';
+					showContactResponse('<span style="color:#2ecc71">Mensagem enviada com sucesso!</span>', true);
 					document.getElementById('name').value    = '';
 					document.getElementById('email').value   = '';
 					document.getElementById('message').value = '';
 				} else {
-					resp.innerHTML = '<span style="color:#e74c3c">Erro ao enviar. Tente novamente.</span>';
+					showContactResponse('<span style="color:#e74c3c">Erro ao enviar. Tente novamente.</span>', false);
 				}
-				resp.style.display = 'block';
 			})
 			.catch(function () {
-				resp.innerHTML = '<span style="color:#e74c3c">Erro de conexão. Tente novamente.</span>';
-				resp.style.display = 'block';
+				showContactResponse('<span style="color:#e74c3c">Erro de conexão. Tente novamente.</span>', false);
 			})
 			.finally(function () {
 				btn.disabled = false;

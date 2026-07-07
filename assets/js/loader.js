@@ -194,6 +194,29 @@
     }
   }
 
+  function populateCertificates(showcase) {
+    if (!showcase || !showcase.items || !showcase.items.length) return;
+
+    setText('certificates-title', showcase.title);
+    setText('certificates-subtitle', showcase.subtitle);
+
+    var html = showcase.items.map(function (item) {
+      return '<article class="certificate-card">' +
+        '<a href="' + item.file + '" target="_blank" rel="noreferrer noopener" aria-label="Abrir certificado ' + item.title + '">' +
+          '<span class="certificate-preview">' +
+            '<img src="' + item.image + '" alt="Certificado ' + item.title + '">' +
+          '</span>' +
+          '<span class="certificate-info">' +
+            '<strong>' + item.title + '</strong>' +
+            '<small>' + item.issuer + '</small>' +
+          '</span>' +
+        '</a>' +
+      '</article>';
+    }).join('');
+
+    setHTML('certificates-carousel', html);
+  }
+
   function populateResume(resume) {
     setText('resume-title', resume.title);
     setText('resume-subtitle', resume.subtitle);
@@ -215,6 +238,14 @@
         '</div>';
     });
     setHTML('resume-education-items', eduHtml);
+
+    if (resume.technical_skills && resume.technical_skills.length) {
+      setText('resume-technical-skills-title', resume.technical_skills_title);
+      setHTML('resume-technical-skills-items',
+        '<div class="resume-entry"><div class="resume-item wow bounceInRight">' +
+        '<p>' + resume.technical_skills.join(', ') + '</p>' +
+        '</div></div>');
+    }
 
     setText('resume-experience-title', resume.experience_title);
 
@@ -240,6 +271,22 @@
         '</div>';
     });
     setHTML('resume-experience-items', expHtml);
+
+    if (resume.certifications && resume.certifications.length) {
+      setText('resume-certifications-title', resume.certifications_title);
+      setHTML('resume-certifications-items',
+        '<div class="resume-entry"><div class="resume-item wow bounceInRight"><ul>' +
+        resume.certifications.map(function (item) { return '<li>' + item + '</li>'; }).join('') +
+        '</ul></div></div>');
+    }
+
+    if (resume.languages && resume.languages.length) {
+      setText('resume-languages-title', resume.languages_title);
+      setHTML('resume-languages-items',
+        '<div class="resume-entry"><div class="resume-item wow bounceInRight"><ul>' +
+        resume.languages.map(function (item) { return '<li>' + item + '</li>'; }).join('') +
+        '</ul></div></div>');
+    }
 
     var cvBtn = document.getElementById('resume-cv-download');
     if (cvBtn) {
@@ -315,6 +362,7 @@
   populateStats(data.stats);
   populateServices(data.services);
   populateCurrentStatus(data.current_status);
+  populateCertificates(data.certificates_showcase);
   populateResume(data.resume);
   populateContact(data.contact);
   populateFooter(data.footer);

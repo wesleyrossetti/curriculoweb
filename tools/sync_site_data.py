@@ -14,10 +14,10 @@ PDF_PATH = ROOT / "curriculo.pdf"
 
 A4_WIDTH = 595
 A4_HEIGHT = 842
-LEFT = 54
-RIGHT = 54
-TOP = 60
-BOTTOM = 56
+LEFT = 42
+RIGHT = 42
+TOP = 42
+BOTTOM = 38
 
 BG = (0.96, 0.94, 0.90)
 SURFACE = (0.99, 0.98, 0.96)
@@ -94,6 +94,9 @@ class PdfBuilder:
         self.current.append(rect_cmd(0, A4_HEIGHT - 18, A4_WIDTH, 18, ACCENT))
         self.pages.append(self.current)
 
+    def _page_has_content(self, page):
+        return any(" Tj ET" in command for command in page)
+
     def ensure_space(self, needed):
         if self.y - needed < BOTTOM:
             self._new_page()
@@ -134,9 +137,9 @@ class PdfBuilder:
         self.line(text, size=size, font="F2", leading=size + 5, color=color)
 
     def section(self, text):
-        self.spacer(12)
-        self.rect(LEFT, self.y - 8, 6, 18, ACCENT)
-        self.line(text.upper(), size=11, font="F2", leading=22, indent=16, color=ACCENT_DARK)
+        self.spacer(6)
+        self.rect(LEFT, self.y - 6, 5, 14, ACCENT)
+        self.line(text.upper(), size=9, font="F2", leading=16, indent=12, color=ACCENT_DARK)
 
     def divider(self):
         self.ensure_space(12)
@@ -149,7 +152,7 @@ class PdfBuilder:
         self._card_top = self.y + 10
 
     def info_card_end(self):
-        self.spacer(6)
+        self.spacer(3)
 
     def build(self, output):
         objects = []
@@ -169,6 +172,8 @@ class PdfBuilder:
         content_ids = []
 
         for page in self.pages:
+            if not self._page_has_content(page):
+                continue
             page_commands = list(page)
             if self.footer_text:
                 footer_x = A4_WIDTH - RIGHT - (len(self.footer_text) * 4.6)
@@ -266,74 +271,100 @@ def build_resume_pdf(data):
     updated_at = f"Atualizado em {datetime.now().strftime('%d/%m/%Y')}"
     pdf = PdfBuilder(footer_text=updated_at)
 
-    header_bottom = A4_HEIGHT - 150
-    pdf.rect(LEFT, header_bottom, A4_WIDTH - LEFT - RIGHT, 92, ACCENT_DARK)
-    pdf.current.append(text_cmd(LEFT + 20, header_bottom + 58, profile["name"], font="F2", size=22, color=(1, 1, 1)))
+    social_urls = [item["url"] for item in profile.get("social", []) if item.get("url")]
+
+    header_bottom = A4_HEIGHT - 116
+    pdf.rect(LEFT, header_bottom, A4_WIDTH - LEFT - RIGHT, 72, ACCENT_DARK)
+    pdf.current.append(text_cmd(LEFT + 16, header_bottom + 48, profile["name"], font="F2", size=18, color=(1, 1, 1)))
     pdf.current.append(
         text_cmd(
-            LEFT + 20,
-            header_bottom + 34,
+            LEFT + 16,
+            header_bottom + 31,
             f"{contact['location']} | {contact['email']}",
             font="F1",
-            size=10,
+            size=9,
             color=(0.90, 0.89, 0.86),
         )
     )
     pdf.current.append(
         text_cmd(
-            LEFT + 20,
+            LEFT + 16,
             header_bottom + 18,
             f"{contact['website']} | {contact['whatsapp']}",
             font="F1",
-            size=10,
+            size=9,
             color=(0.90, 0.89, 0.86),
         )
     )
-    pdf.y = header_bottom - 18
+    if social_urls:
+        pdf.current.append(
+            text_cmd(
+                LEFT + 16,
+                header_bottom + 6,
+                " | ".join(social_urls),
+                font="F1",
+                size=8,
+                color=(0.90, 0.89, 0.86),
+            )
+        )
+    pdf.y = header_bottom - 10
 
     pdf.wrapped(
         profile["subtitle"],
-        size=11,
+        size=9,
         font="F2",
-        leading=16,
+        leading=12,
         color=ACCENT_DARK,
     )
 
     pdf.section("Resumo")
-    pdf.info_card_start(92)
-    pdf.wrapped(profile["bio"], size=11, leading=17, color=TEXT)
+    pdf.info_card_start(62)
+    pdf.wrapped(profile["bio"], size=9, leading=12, color=TEXT)
     pdf.info_card_end()
 
-    pdf.section("Atuação")
-    pdf.info_card_start(52)
-    pdf.wrapped(profile["subtitle"], size=11, font="F2", leading=16, color=TEXT)
-    pdf.info_card_end()
+    if resume.get("technical_skills"):
+        pdf.section(resume.get("technical_skills_title", "Competências Técnicas"))
+        pdf.info_card_start(44)
+        pdf.wrapped(", ".join(resume["technical_skills"]), size=8, leading=10, color=TEXT)
+        pdf.info_card_end()
 
     pdf.section("Atuação Atual")
-    pdf.info_card_start(68)
-    pdf.wrapped(f"{current['headline']} {current['company']}", size=11, font="F2", leading=16, color=ACCENT_DARK)
-    pdf.wrapped(current["description"], size=11, leading=17, color=TEXT)
+    pdf.info_card_start(42)
+    pdf.wrapped(f"{current['headline']} {current['company']}", size=9, font="F2", leading=12, color=ACCENT_DARK)
+    pdf.wrapped(current["description"], size=9, leading=12, color=TEXT)
     pdf.info_card_end()
-
-    pdf.section("Formação Acadêmica")
-    for idx, edu in enumerate(resume["education"]):
-        pdf.info_card_start(56)
-        pdf.subheading(f"{edu['degree']} | {edu['org']}", size=12, color=ACCENT_DARK)
-        pdf.wrapped(edu["period"], size=10, font="F2", leading=14, color=ACCENT)
-        pdf.wrapped(edu["description"], size=10, leading=15, color=TEXT)
-        pdf.info_card_end()
-        if idx == len(resume["education"]) - 1:
-            pdf._new_page()
 
     pdf.section("Experiência Profissional")
     for exp in resume["experience"]:
-        pdf.info_card_start(80)
-        pdf.subheading(f"{exp['title']} | {exp['company']}", size=12, color=ACCENT_DARK)
-        pdf.wrapped(f"{exp['period']} | {exp['location']}", size=10, font="F2", leading=14, color=ACCENT)
+        pdf.info_card_start(52)
+        pdf.subheading(f"{exp['title']} | {exp['company']}", size=9, color=ACCENT_DARK)
+        pdf.wrapped(f"{exp['period']} | {exp['location']}", size=8, font="F2", leading=10, color=ACCENT)
         if compact_spaces(exp.get("description")):
-            pdf.wrapped(exp["description"], size=10, leading=15, color=TEXT)
+            pdf.wrapped(exp["description"], size=8, leading=10, color=TEXT)
         for item in bullet_lines(exp.get("items", [])):
-            pdf.wrapped(item, size=10, leading=14, indent=10, width=A4_WIDTH - LEFT - RIGHT - 20, color=TEXT_MUTED)
+            pdf.wrapped(item, size=8, leading=10, indent=8, width=A4_WIDTH - LEFT - RIGHT - 16, color=TEXT_MUTED)
+        pdf.info_card_end()
+
+    pdf.section("Formação Acadêmica")
+    for edu in resume["education"]:
+        pdf.info_card_start(32)
+        pdf.subheading(f"{edu['degree']} | {edu['org']}", size=9, color=ACCENT_DARK)
+        pdf.wrapped(edu["period"], size=8, font="F2", leading=10, color=ACCENT)
+        pdf.wrapped(edu["description"], size=8, leading=10, color=TEXT)
+        pdf.info_card_end()
+
+    if resume.get("certifications"):
+        pdf.section(resume.get("certifications_title", "Certificações e Cursos"))
+        pdf.info_card_start(38)
+        for item in bullet_lines(resume["certifications"]):
+            pdf.wrapped(item, size=8, leading=10, indent=8, width=A4_WIDTH - LEFT - RIGHT - 16, color=TEXT_MUTED)
+        pdf.info_card_end()
+
+    if resume.get("languages"):
+        pdf.section(resume.get("languages_title", "Idiomas"))
+        pdf.info_card_start(24)
+        for item in bullet_lines(resume["languages"]):
+            pdf.wrapped(item, size=8, leading=10, indent=8, width=A4_WIDTH - LEFT - RIGHT - 16, color=TEXT_MUTED)
         pdf.info_card_end()
 
     pdf.build(PDF_PATH)

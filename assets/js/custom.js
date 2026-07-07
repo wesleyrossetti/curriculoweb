@@ -114,6 +114,24 @@
 			autoPlay: 5000
 		});
 
+		$("#certificates-carousel").owlCarousel({
+			items: 3,
+			itemsDesktop: [1199, 3],
+			itemsDesktopSmall: [979, 2],
+			itemsTablet: [768, 2],
+			itemsMobile: [479, 1],
+			slideSpeed: 300,
+			paginationSpeed: 500,
+			autoPlay: 6000,
+			stopOnHover: true,
+			navigation: true,
+			navigationText: [
+				'<i class="fas fa-chevron-left"></i>',
+				'<i class="fas fa-chevron-right"></i>'
+			],
+			pagination: true
+		});
+
 		/* ---------------------------------------------- /*
 		 * Portfolio pop up
 		/* ---------------------------------------------- */

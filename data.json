@@ -15,6 +15,7 @@
       { "label": "Principal",  "href": "#intro" },
       { "label": "Perfil",     "href": "#profile" },
       { "label": "Serviços",   "href": "#services" },
+      { "label": "Certificados", "href": "#certificates" },
       { "label": "Curriculum", "href": "#resume" },
       { "label": "Contato",    "href": "#contact" }
     ],
@@ -49,11 +50,11 @@
 
   "profile": {
     "name": "Wesley Rossetti Porto",
-    "subtitle": "Consultor de TI com foco em infraestrutura, redes, software livre, automação e desenvolvimento back-end.",
+    "subtitle": "Especialista em Infraestrutura | Cloud | DevOps | Kubernetes | Automação | Alta Disponibilidade | Segurança da Informação",
     "photo": "assets/images/profile-photo.jpg",
     "photo_alt": "Wesley Rossetti",
     "bio_title": "Perfil Profissional",
-    "bio": "Profissional de Tecnologia da Informação com trajetória construída desde os primórdios da computação pessoal, acompanhando e participando ativamente da evolução tecnológica das últimas décadas. Possuo ampla experiência em infraestrutura, redes, virtualização, cloud, automação, software livre, segurança da informação e sustentação de ambientes críticos.\n\nAtuei em diferentes níveis da operação de TI, desde a implementação e suporte em campo até a arquitetura e administração de ambientes corporativos complexos. Minha experiência me permite transformar desafios tecnológicos em soluções eficientes, escaláveis e seguras, contribuindo diretamente para a estabilidade operacional, a inovação e os resultados do negócio.",
+    "bio": "Especialista em Infraestrutura, Cloud e DevOps com mais de 10 anos de experiência em ambientes críticos. Atuação em Linux, Windows Server, Active Directory, Kubernetes, Docker, automação, monitoramento, backup corporativo, segurança da informação e sustentação de ambientes de produção. Experiência em projetos de alta disponibilidade, migrações, modernização de infraestrutura, troubleshooting avançado e implantação de soluções escaláveis e seguras.",
     "skills_title": "Especialidades",
     "skills": [
       { "name": "Network/TI",    "level": 4, "max": 4 },
@@ -116,138 +117,204 @@
 
   "current_status": {
     "section_title": "Atuação atual",
-    "headline": "Hoje, sigo em operação na",
+    "headline": "Consultor independente em Infraestrutura, Cloud e DevOps |",
     "company": "WmanTI",
     "company_url": "http://www.wmanti.com.br",
-    "description": "Atuo como Administrador de Redes e também em frentes de automação, DevOps e sustentação de infraestrutura, contribuindo para projetos que exigem confiabilidade técnica, adaptação rápida e visão ampla de operação.",
+    "description": "Consultoria técnica independente em projetos de infraestrutura, automação, DevOps e sustentação de ambientes corporativos, sem caracterização de vínculo CLT.",
     "cta_label": "Fale comigo",
     "cta_href": "#contact"
   },
 
+  "certificates_showcase": {
+    "title": "Certificados",
+    "subtitle": "Cursos e certificações recentes em inteligência artificial, automação e autenticação de e-mail.",
+    "items": [
+      {
+        "title": "AI Foundations",
+        "issuer": "OpenAI Academy",
+        "image": "assets/images/certificates/previews/openai-ai-foundations.png",
+        "file": "assets/images/certificates/openai-ai-foundations.pdf"
+      },
+      {
+        "title": "Agents and Workflows",
+        "issuer": "OpenAI Academy",
+        "image": "assets/images/certificates/previews/openai-agents-and-workflows.png",
+        "file": "assets/images/certificates/openai-agents-and-workflows.pdf"
+      },
+      {
+        "title": "Applied AI Foundations",
+        "issuer": "OpenAI Academy",
+        "image": "assets/images/certificates/previews/openai-applied-ai-foundations.png",
+        "file": "assets/images/certificates/openai-applied-ai-foundations.pdf"
+      },
+      {
+        "title": "Claude 101",
+        "issuer": "Anthropic",
+        "image": "assets/images/certificates/previews/anthropic-claude-101.png",
+        "file": "assets/images/certificates/anthropic-claude-101.pdf"
+      },
+      {
+        "title": "Claude Code 101",
+        "issuer": "Anthropic",
+        "image": "assets/images/certificates/previews/anthropic-claude-code-101.png",
+        "file": "assets/images/certificates/anthropic-claude-code-101.pdf"
+      },
+      {
+        "title": "Email Authentication Fundamentals",
+        "issuer": "PowerDMARC",
+        "image": "assets/images/certificates/previews/powerdmarc-email-authentication-fundamentals.png",
+        "file": "assets/images/certificates/powerdmarc-email-authentication-fundamentals.pdf"
+      }
+    ]
+  },
+
   "resume": {
     "title": "Currículo",
-    "subtitle": "Resumo profissional",
-    "education_title": "Educação",
+    "subtitle": "Especialista em Infraestrutura, Cloud, DevOps, Kubernetes, Automação, Alta Disponibilidade e Segurança da Informação.",
+    "technical_skills_title": "Competências Técnicas",
+    "technical_skills": [
+      {
+        "category": "Cloud",
+        "items": ["Azure", "AWS", "Oracle Cloud Infrastructure"]
+      },
+      {
+        "category": "Containers",
+        "items": ["Docker", "Kubernetes", "Rancher"]
+      },
+      {
+        "category": "Automação e DevOps",
+        "items": ["Terraform", "Ansible", "GitLab", "CI/CD", "Bash", "PowerShell", "Python"]
+      },
+      {
+        "category": "Infraestrutura",
+        "items": ["Linux", "Windows Server", "Active Directory", "VMware", "Hyper-V", "Proxmox", "GLPI"]
+      },
+      {
+        "category": "Monitoramento",
+        "items": ["Prometheus", "Grafana", "Zabbix", "Logging"]
+      },
+      {
+        "category": "Banco de Dados",
+        "items": ["MySQL", "PostgreSQL", "MariaDB", "Redis"]
+      },
+      {
+        "category": "Rede",
+        "items": ["DNS", "DHCP", "VPN", "Firewall", "Cloudflare", "pfSense", "NGINX", "Apache"]
+      },
+      {
+        "category": "Segurança",
+        "items": ["Segurança da Informação", "Backup", "Disaster Recovery", "ISO 27001", "ITIL", "Alta Disponibilidade"]
+      }
+    ],
+    "security_skills_title": "Competências em Segurança da Informação",
+    "security_skills": [
+      "Backup corporativo",
+      "Disaster Recovery",
+      "Active Directory",
+      "Firewalls",
+      "pfSense",
+      "Cloudflare",
+      "Segurança de infraestrutura"
+    ],
+    "highlight_projects_title": "Projetos de Destaque",
+    "highlight_projects": [
+      {
+        "title": "Implantação e Administração de Ambientes Kubernetes",
+        "description": "Implantação, administração e sustentação de containers e Kubernetes em produção, com foco em padronização, escalabilidade e confiabilidade operacional."
+      },
+      {
+        "title": "Infraestrutura Cloud e On-Premises",
+        "description": "Atuação em ambientes híbridos, integrando recursos cloud e on-premises para alta disponibilidade, continuidade operacional e sustentação corporativa."
+      },
+      {
+        "title": "Automação e DevOps",
+        "description": "Automação de rotinas, apoio a pipelines CI/CD e scripts operacionais para reduzir atividades manuais e aumentar a previsibilidade das implantações."
+      },
+      {
+        "title": "Monitoramento e Observabilidade",
+        "description": "Monitoramento com Prometheus, Grafana, Zabbix e logging para resposta rápida a incidentes, estabilidade de serviços e acompanhamento de ambientes críticos."
+      },
+      {
+        "title": "Backup e Recuperação de Desastres",
+        "description": "Sustentação de backup corporativo, storage e práticas de Disaster Recovery para fortalecer continuidade operacional e recuperação de serviços."
+      }
+    ],
+    "education_title": "Formação Acadêmica",
     "education": [
       {
-        "degree": "Graduação Analise e Desenvolvimento de Sistemas",
+        "degree": "Graduação em Análise e Desenvolvimento de Sistemas",
         "description": "Instituto de Educação Superior de Brasília",
         "org": "IESB",
         "period": "2015 - 2019"
       },
       {
-        "degree": "Empreendedorismo",
-        "description": "Formação técnica com base em informática, DNS e competências voltadas à atuação prática em tecnologia.",
-        "org": "Escola Técnica de Ceilândia",
-        "period": "Formação técnica"
-      },
-      {
-        "degree": "Pós-graduação Segurança da Informação",
+        "degree": "Pós-graduação em Segurança da Informação",
         "description": "Especialização voltada à proteção de ambientes, gestão de riscos, boas práticas de segurança e fortalecimento da governança em tecnologia.",
         "org": "Faculdade Bookplay",
-        "period": "jan de 2025 - dez de 2025"
+        "period": "jan/2025 - dez/2025"
+      },
+      {
+        "degree": "Formação Técnica / Empreendedorismo",
+        "description": "Formação técnica voltada a empreendedorismo, fundamentos de informática e aplicação prática de tecnologia em ambientes profissionais.",
+        "org": "Escola Técnica de Ceilândia",
+        "period": "27/02/2012 - 24/04/2012 | 140h"
       }
     ],
-    "experience_title": "Experiência",
+    "experience_title": "Experiência Profissional",
     "experience": [
       {
-        "title": "Especialista em consultoria - DEVOPS e Infraestrutura em cloud",
+        "title": "Consultoria / PJ - Especialista em Consultoria, DevOps e Infraestrutura em Cloud",
         "company": "Nuvem Online",
-        "period": "jul de 2021 - fev de 2026",
+        "period": "jul/2021 - jun/2026",
         "location": "Remoto",
-        "description": "Atuação na implantação, administração e sustentação de ambientes de infraestrutura de TI on-premises e cloud, com foco em alta disponibilidade, segurança, performance e escalabilidade. Experiência na operação de ambientes críticos em produção, incluindo servidores Linux e Windows, virtualização, containers, Kubernetes, automação de processos, pipelines CI/CD, observabilidade, storage, backup, recuperação de desastres, suporte técnico avançado, comunicação e marketing na área de TI.",
+        "description": "Atuação em consultoria, implantação, administração e sustentação de infraestrutura on-premises e cloud, com foco em alta disponibilidade, segurança, performance e escalabilidade.",
         "items": [
-          "Infraestrutura on-premises e cloud",
-          "Alta disponibilidade, segurança e escalabilidade",
-          "Linux, Windows, virtualização e containers",
-          "Kubernetes, automação e CI/CD",
-          "Prometheus, Grafana e logging",
-          "Comunicação e marketing na área de TI",
-          "Storage, backup e recuperação de desastres",
-          "Troubleshooting e sustentação de ambientes críticos"
+          "Implantei e administrei ambientes críticos de produção com Linux, Windows, virtualização, containers e Kubernetes.",
+          "Automatizei processos operacionais e apoiei pipelines CI/CD, observabilidade, storage, backup e recuperação de desastres.",
+          "Monitorei serviços com Prometheus, Grafana e logging, atuando em troubleshooting avançado e continuidade operacional."
         ]
       },
       {
-        "title": "Técnico de Suporte",
+        "title": "Experiência CLT / Presencial - Técnico de Suporte",
         "company": "Hospital Santa Marta",
-        "period": "fev de 2022 - jan de 2023",
-        "location": "Presencial - Brasília, Distrito Federal, Brasil",
-        "description": "Atuação na implantação, administração e sustentação em ambiente critico em regime de plantao de 12 horas, com foco em alta disponibilidade, segurança, performance e escalabilidade. Experiência na operação de ambientes críticos em produção, incluindo servidores Linux e Windows, virtualização, containers, Kubernetes, automação de processos, pipelines CI/CD, observabilidade, storage, backup, recuperação de desastres e suporte técnico avançado.",
+        "period": "fev/2022 - jan/2023",
+        "location": "Presencial - Brasília, DF",
+        "description": "Atuação em ambiente crítico hospitalar, em regime de plantão de 12 horas, com foco em disponibilidade, suporte avançado e continuidade operacional.",
         "items": [
-          "Infraestrutura on-premises",
-          "Alta disponibilidade, segurança e escalabilidade",
-          "Linux, Windows, virtualização",
-          "Troubleshooting e sustentação de ambientes críticos",
-          "Monitoramento e resposta a incidentes(zabbix, nagios, cacti) ",
-          "Suporte técnico avançado em ambiente hospitalar(Tasy)",
-          "Manutenção de sistemas críticos de saúde",
-          "Garantia de continuidade operacional",
-          "Colaboração com equipes multidisciplinares",
-          "Documentação e melhoria de processos"
+          "Sustentei infraestrutura on-premises, sistemas críticos de saúde e ambiente Tasy.",
+          "Monitorei e respondi a incidentes com Zabbix, Nagios e Cacti.",
+          "Documentei processos, apoiei equipes multidisciplinares e resolvi incidentes para manter a operação hospitalar."
         ]
       },
       {
-        "title": "Analista de infraestrutura de TI",
+        "title": "Consultoria / PJ - Analista de Infraestrutura de TI",
         "company": "TIQUI Soluções em Tecnologia",
-        "period": "jul de 2021 - jul de 2023",
-        "location": "Brasília, Distrito Federal, Brasil",
+        "period": "jul/2021 - jul/2023",
+        "location": "Brasília, DF",
         "description": "Atuação em infraestrutura de TI com foco em operação, suporte e administração de ambientes corporativos, incluindo tecnologias Microsoft, resolução de incidentes, sustentação de serviços críticos, comunicação e marketing na área de TI.",
         "items": [
-          "Infraestrutura corporativa",
-          "Tecnologias Microsoft",
-          "Resolução de problemas",
-          "Sustentação operacional",
-          "Suporte técnico especializado",
-          "Comunicação e marketing na área de TI",
-          "Virtualização (VMWare)",
-          "Automação de sistemas",
-          "Desenvolvimento e suporte",
-          "Soluções de embarcados (Raspberry, ARM em geral)",
-          "Orquestração Docker",
-          "Databases (SQL and NoSQL)",
-          "Cluster Solutions",
-          "Gerenciamento de Redes",
-          "Software Livre em geral (Linux & BSD)",
-          
-          "Gerenciamento de Redes",
-          "Software Livre em geral",
-          "Ambientes heterogêneos (Principalmente SAMBA4 – Active Directory)",
-          "Virtualização de ambientes"
+          "Administrei ambientes Microsoft, Linux/BSD, Samba4, Active Directory, redes e virtualização com VMware.",
+          "Sustentei Docker, bancos SQL/NoSQL, soluções de cluster e ambientes heterogêneos.",
+          "Automatizei rotinas, apoiei desenvolvimento e suporte, e resolvi incidentes de infraestrutura corporativa."
         ]
       },
       {
-        "title": "Analista de infraestrutura de TI",
+        "title": "Analista de Infraestrutura de TI",
         "company": "Menu Tecnologia",
-        "period": "set de 2018 - set de 2021",
-        "location": "Brasília e Região",
+        "period": "set/2018 - set/2021",
+        "location": "Brasília, DF",
         "description": "Responsável pela operação e suporte de infraestrutura, com forte atuação em ambientes Microsoft, atendimento a incidentes, manutenção de serviços e estabilidade operacional.",
         "items": [
-          "Administração de infraestrutura",
-          "Tecnologias Microsoft",
-          "Troubleshooting",
-          "Suporte a usuários e serviços",
-          "Continuidade operacional",
-          "Virtualização (VMWare)",
-          "Automação de sistemas",
-          "Desenvolvimento e suporte",
-          "Soluções de embarcados (Raspberry, ARM em geral)",
-          "Orquestração Docker",
-          "Databases (SQL and NoSQL)",
-          "Cluster Solutions",
-          "Gerenciamento de Redes",
-          "Software Livre em geral (Linux & BSD)",
-          
-          "Gerenciamento de Redes",
-          "Software Livre em geral",
-          "Ambientes heterogêneos (Principalmente SAMBA4 – Active Directory)",
-          "Virtualização de ambientes"
+          "Administrei infraestrutura, ambientes Microsoft, redes, virtualização, Linux/BSD, Samba4 e Active Directory.",
+          "Sustentei VMware, Docker, bancos SQL/NoSQL, soluções de cluster e serviços corporativos.",
+          "Resolvi incidentes, automatizei rotinas e apoiei desenvolvimento, suporte e estabilidade operacional."
         ]
       },
       {
-        "title": "Analista de suporte técnico",
+        "title": "Analista de Suporte Técnico",
         "company": "rmc tecnologia",
-        "period": "jun de 2017 - ago de 2018",
-        "location": "Brasília e Região",
+        "period": "jun/2017 - ago/2018",
+        "location": "Brasília, DF",
         "description": "Atuação em suporte técnico e atendimento a incidentes, com foco em ambientes Microsoft, resolução de problemas e sustentação de infraestrutura para operação diária.",
         "items": [
           "Suporte técnico",
@@ -260,8 +327,8 @@
       {
         "title": "Suporte técnico",
         "company": "JCGontijo Engenharia S.A",
-        "period": "dez de 2016 - fev de 2017",
-        "location": "Brasília e Região",
+        "period": "dez/2016 - fev/2017",
+        "location": "Brasília, DF",
         "description": "Atuação em suporte técnico voltado à rotina corporativa, resolução de incidentes, suporte a usuários e manutenção da operação de TI.",
         "items": [
           "Suporte ao usuário",
@@ -271,10 +338,10 @@
         ]
       },
       {
-        "title": "Analista de suporte técnico",
+        "title": "Analista de Suporte Técnico",
         "company": "rmc tecnologia",
-        "period": "nov de 2016 - dez de 2016",
-        "location": "Brasília e Região",
+        "period": "nov/2016 - dez/2016",
+        "location": "Brasília, DF",
         "description": "Atuação em suporte técnico com foco em ambientes Microsoft, atendimento a chamados e resolução de problemas para continuidade da operação.",
         "items": [
           "Suporte técnico",
@@ -284,10 +351,10 @@
         ]
       },
       {
-        "title": "Soldado (Auxiliar de suporte TI)",
+        "title": "Soldado - Auxiliar de Suporte TI",
         "company": "Exército Brasileiro",
-        "period": "mar de 2015 - ago de 2016",
-        "location": "Brasília e Região",
+        "period": "mar/2015 - ago/2016",
+        "location": "Brasília, DF",
         "description": "Atuação em suporte de TI dentro de ambiente institucional, com foco em suporte técnico, organização operacional e atendimento a demandas de infraestrutura e usuários.",
         "items": [
           "Suporte técnico institucional",
@@ -296,6 +363,22 @@
           "Rotina operacional de TI"
         ]
       }
+    ],
+    "certifications_title": "Certificações e Cursos",
+    "certifications": [
+      "Fortinet Networking Fundamentals",
+      "3CX Basic Engineer",
+      "3CX Advanced Engineer",
+      "Cisco Cybersecurity",
+      "AI Foundations",
+      "DevOps Foundations",
+      "Segurança da Informação",
+      "Red Hat / OpenStack"
+    ],
+    "languages_title": "Idiomas",
+    "languages": [
+      "Português: Nativo",
+      "Inglês: Básico"
     ],
     "cv_download_url": "curriculo.pdf",
     "cv_download_label": "Baixar currículo"
@@ -330,14 +413,15 @@
         "lang": "en"
       },
       "navbar": {
-        "links": [
-          { "label": "Home", "href": "#intro" },
-          { "label": "Profile", "href": "#profile" },
-          { "label": "Services", "href": "#services" },
-          { "label": "Resume", "href": "#resume" },
-          { "label": "Contact", "href": "#contact" }
-        ]
-      },
+	        "links": [
+	          { "label": "Home", "href": "#intro" },
+	          { "label": "Profile", "href": "#profile" },
+	          { "label": "Services", "href": "#services" },
+	          { "label": "Certificates", "href": "#certificates" },
+	          { "label": "Resume", "href": "#resume" },
+	          { "label": "Contact", "href": "#contact" }
+	        ]
+	      },
       "intro": {
         "greeting": "Hi, I am Wesley Rossetti",
         "roles": ["Infrastructure Consultant", "Networking and Systems", "BSD/Linux/Unix", "DevOps and Automation"]
@@ -387,13 +471,17 @@
           }
         ]
       },
-      "current_status": {
-        "section_title": "Current role",
-        "headline": "Today, I am actively working at",
-        "description": "I work as a Network Administrator while also contributing across automation, DevOps and infrastructure support, helping deliver projects that demand technical reliability, quick adaptation and broad operational vision.",
-        "cta_label": "Get in touch"
-      },
-      "resume": {
+	      "current_status": {
+	        "section_title": "Current role",
+	        "headline": "Today, I am actively working at",
+	        "description": "I work as a Network Administrator while also contributing across automation, DevOps and infrastructure support, helping deliver projects that demand technical reliability, quick adaptation and broad operational vision.",
+	        "cta_label": "Get in touch"
+	      },
+	      "certificates_showcase": {
+	        "title": "Certificates",
+	        "subtitle": "Recent courses and certificates in artificial intelligence, automation and e-mail authentication."
+	      },
+	      "resume": {
         "title": "Resume",
         "subtitle": "Professional Summary",
         "education_title": "Education",
