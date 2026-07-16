@@ -7,7 +7,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 3 0 obj
-<< /Length 7746 >>
+<< /Length 8870 >>
 stream
 0.960 0.940 0.900 rg 0 0 595 842 re f
 0.850 0.420 0.190 rg 0 824 595 18 re f
@@ -27,123 +27,128 @@ BT 0.100 0.120 0.160 rg /F1 9 Tf 1 0 0 1 42 634 Tm (alta disponibilidade, migraç
 BT 0.100 0.120 0.160 rg /F1 9 Tf 1 0 0 1 42 622 Tm (soluções escaláveis e seguras.) Tj ET
 0.850 0.420 0.190 rg 42 595 5 14 re f
 BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 601 Tm (COMPETÊNCIAS TÉCNICAS) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 585 Tm (Linux, Windows Server, Active Directory, Azure, AWS, Oracle Cloud Infrastructure, Docker, Kubernetes,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 575 Tm (Rancher, GitLab, CI/CD, Ansible, Terraform, Bash, PowerShell, Python, Prometheus, Grafana, Zabbix, GLPI,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 565 Tm (pfSense, NGINX, Apache, MySQL, PostgreSQL, MariaDB, Redis, VMware, Hyper-V, Proxmox, Backup, Disaster) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 555 Tm (Recovery, DNS, DHCP, VPN, Firewall, Cloudflare, Segurança da Informação, ISO 27001, ITIL, Automação, Alta) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 545 Tm (Disponibilidade) Tj ET
-0.850 0.420 0.190 rg 42 520 5 14 re f
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 526 Tm (ATUAÇÃO ATUAL) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 510 Tm (Consultor independente em Infraestrutura, Cloud e DevOps | WmanTI) Tj ET
-BT 0.100 0.120 0.160 rg /F1 9 Tf 1 0 0 1 42 498 Tm (Consultoria técnica independente em projetos de infraestrutura, automação, DevOps e sustentação de) Tj ET
-BT 0.100 0.120 0.160 rg /F1 9 Tf 1 0 0 1 42 486 Tm (ambientes corporativos, sem caracterização de vínculo CLT.) Tj ET
-0.850 0.420 0.190 rg 42 459 5 14 re f
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 465 Tm (EXPERIÊNCIA PROFISSIONAL) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 449 Tm (Consultoria / PJ - Especialista em Consultoria, DevOps e Infraestrutura em Cloud | Nuvem Online) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 435 Tm (jul/2021 - jun/2026 | Remoto) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 425 Tm (Atuação em consultoria, implantação, administração e sustentação de infraestrutura on-premises e cloud,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 415 Tm (com foco em alta disponibilidade, segurança, performance e escalabilidade.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 405 Tm (- Implantei e administrei ambientes críticos de produção com Linux, Windows, virtualização, containers) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 395 Tm (e Kubernetes.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 385 Tm (- Automatizei processos operacionais e apoiei pipelines CI/CD, observabilidade, storage, backup e) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 375 Tm (recuperação de desastres.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 365 Tm (- Monitorei serviços com Prometheus, Grafana e logging, atuando em troubleshooting avançado e) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 355 Tm (continuidade operacional.) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 342 Tm (Experiência CLT / Presencial - Técnico de Suporte | Hospital Santa Marta) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 328 Tm (fev/2022 - jan/2023 | Presencial - Brasília, DF) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 318 Tm (Atuação em ambiente crítico hospitalar, em regime de plantão de 12 horas, com foco em disponibilidade,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 308 Tm (suporte avançado e continuidade operacional.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 298 Tm (- Sustentei infraestrutura on-premises, sistemas críticos de saúde e ambiente Tasy.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 288 Tm (- Monitorei e respondi a incidentes com Zabbix, Nagios e Cacti.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 278 Tm (- Documentei processos, apoiei equipes multidisciplinares e resolvi incidentes para manter a operação) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 268 Tm (hospitalar.) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 255 Tm (Consultoria / PJ - Analista de Infraestrutura de TI | TIQUI Soluções em Tecnologia) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 241 Tm (jul/2021 - jul/2023 | Brasília, DF) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 231 Tm (Atuação em infraestrutura de TI com foco em operação, suporte e administração de ambientes corporativos,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 221 Tm (incluindo tecnologias Microsoft, resolução de incidentes, sustentação de serviços críticos, comunicação e) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 211 Tm (marketing na área de TI.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 201 Tm (- Administrei ambientes Microsoft, Linux/BSD, Samba4, Active Directory, redes e virtualização com) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 191 Tm (VMware.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 181 Tm (- Sustentei Docker, bancos SQL/NoSQL, soluções de cluster e ambientes heterogêneos.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 171 Tm (- Automatizei rotinas, apoiei desenvolvimento e suporte, e resolvi incidentes de infraestrutura) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 161 Tm (corporativa.) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 148 Tm (Analista de Infraestrutura de TI | Menu Tecnologia) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 134 Tm (set/2018 - set/2021 | Brasília, DF) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 124 Tm (Responsável pela operação e suporte de infraestrutura, com forte atuação em ambientes Microsoft,) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 114 Tm (atendimento a incidentes, manutenção de serviços e estabilidade operacional.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 104 Tm (- Administrei infraestrutura, ambientes Microsoft, redes, virtualização, Linux/BSD, Samba4 e Active) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 94 Tm (Directory.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 84 Tm (- Sustentei VMware, Docker, bancos SQL/NoSQL, soluções de cluster e serviços corporativos.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 74 Tm (- Resolvi incidentes, automatizei rotinas e apoiei desenvolvimento, suporte e estabilidade operacional.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 442.6 20 Tm (Atualizado em 07/07/2026) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 585 Tm (Cloud: Azure, AWS, Oracle Cloud Infrastructure) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 576 Tm (Containers: Docker, Kubernetes, Rancher) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 567 Tm (Automação e DevOps: Terraform, Ansible, GitLab, CI/CD, Bash, PowerShell, Python) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 558 Tm (Infraestrutura: Linux, Windows Server, Active Directory, VMware, Hyper-V, Proxmox, GLPI) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 549 Tm (Monitoramento: Prometheus, Grafana, Zabbix, Logging) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 540 Tm (Banco de Dados: MySQL, PostgreSQL, MariaDB, Redis, MongoDB, SQL Server) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 531 Tm (Rede: DNS, DHCP, VPN, Firewall, Cloudflare, pfSense, NGINX, Apache) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 522 Tm (Segurança: Segurança da Informação, Backup, Disaster Recovery, ISO 27001, ITIL, Alta Disponibilidade) Tj ET
+0.850 0.420 0.190 rg 42 498 5 14 re f
+BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 504 Tm (COMPETÊNCIAS EM SEGURANÇA DA INFORMAÇÃO) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 488 Tm (Backup corporativo, Disaster Recovery, Active Directory, Firewalls, pfSense, Cloudflare, Segurança de) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 479 Tm (infraestrutura) Tj ET
+0.850 0.420 0.190 rg 42 455 5 14 re f
+BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 461 Tm (PROJETOS DE DESTAQUE) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 445 Tm (Implantação e Administração de Ambientes Kubernetes: Implantação, administração e sustentação de) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 436 Tm (containers e Kubernetes em produção, com foco em padronização, escalabilidade e confiabilidade) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 427 Tm (operacional.) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 418 Tm (Infraestrutura Cloud e On-Premises: Atuação em ambientes híbridos, integrando recursos cloud e on-premises) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 409 Tm (para alta disponibilidade, continuidade operacional e sustentação corporativa.) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 400 Tm (Automação e DevOps: Automação de rotinas, apoio a pipelines CI/CD e scripts operacionais para reduzir) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 391 Tm (atividades manuais e aumentar a previsibilidade das implantações.) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 382 Tm (Monitoramento e Observabilidade: Monitoramento com Prometheus, Grafana, Zabbix e logging para resposta) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 373 Tm (rápida a incidentes, estabilidade de serviços e acompanhamento de ambientes críticos.) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 364 Tm (Backup e Recuperação de Desastres: Sustentação de backup corporativo, storage e práticas de Disaster) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 355 Tm (Recovery para fortalecer continuidade operacional e recuperação de serviços.) Tj ET
+0.850 0.420 0.190 rg 42 331 5 14 re f
+BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 337 Tm (ATUAÇÃO ATUAL) Tj ET
+BT 0.160 0.190 0.240 rg /F2 7 Tf 1 0 0 1 42 321 Tm (Consultor independente em Infraestrutura, Cloud e DevOps | WmanTI. Consultoria técnica independente em) Tj ET
+BT 0.160 0.190 0.240 rg /F2 7 Tf 1 0 0 1 42 312 Tm (projetos de infraestrutura, automação, DevOps e sustentação de ambientes corporativos, sem caracterização) Tj ET
+BT 0.160 0.190 0.240 rg /F2 7 Tf 1 0 0 1 42 303 Tm (de vínculo CLT.) Tj ET
+0.850 0.420 0.190 rg 42 279 5 14 re f
+BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 285 Tm (EXPERIÊNCIA PROFISSIONAL) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 269 Tm (Consultoria / PJ - Especialista em Consultoria, DevOps e Infraestrutura em Cloud | Nuvem Online) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 256 Tm (jul/2021 - jun/2026 | Remoto) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 248 Tm (- Implantei e administrei plataformas críticas com Linux, Windows, virtualização, containers e) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 240 Tm (Kubernetes, reforçando disponibilidade, escalabilidade e confiabilidade em produção.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 232 Tm (- Automatizei rotinas operacionais e apoiei pipelines CI/CD, aumentando a padronização das implantações) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 224 Tm (e reduzindo atividades manuais.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 216 Tm (- Sustentei observabilidade, storage, backup e Disaster Recovery, fortalecendo continuidade) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 208 Tm (operacional, segurança e resposta a incidentes.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 200 Tm (- Monitorei serviços com Prometheus, Grafana e logging, acelerando troubleshooting avançado e) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 192 Tm (estabilização de ambientes críticos.) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 181 Tm (Experiência CLT / Presencial - Técnico de Suporte | Hospital Santa Marta) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 168 Tm (fev/2022 - jan/2023 | Presencial - Brasília, DF) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 160 Tm (- Sustentei plataforma on-premises, sistemas críticos de saúde e ambiente Tasy, priorizando) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 152 Tm (disponibilidade e continuidade do atendimento hospitalar.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 144 Tm (- Monitorei e respondi a incidentes com Zabbix, Nagios e Cacti, apoiando estabilidade operacional em) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 136 Tm (regime de plantão.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 128 Tm (- Documentei processos e colaborei com equipes multidisciplinares, reduzindo dependência operacional e) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 120 Tm (melhorando a rastreabilidade das ações técnicas.) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 109 Tm (Consultoria / PJ - Analista de Infraestrutura de TI | TIQUI Soluções em Tecnologia) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 96 Tm (jul/2021 - jul/2023 | Brasília, DF) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 88 Tm (- Administrei plataformas Microsoft, Linux/BSD, Samba4, Active Directory, redes e VMware, mantendo) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 80 Tm (serviços corporativos disponíveis e seguros.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 72 Tm (- Sustentei Docker, bancos SQL/NoSQL e soluções de cluster, apoiando escalabilidade e confiabilidade de) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 64 Tm (ambientes heterogêneos.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 56 Tm (- Automatizei rotinas, apoiei desenvolvimento e resolvi incidentes complexos, melhorando padronização e) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 48 Tm (continuidade operacional.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 442.6 20 Tm (Atualizado em 15/07/2026) Tj ET
 endstream
 endobj
 4 0 obj
-<< /Length 5828 >>
+<< /Length 6154 >>
 stream
 0.960 0.940 0.900 rg 0 0 595 842 re f
 0.850 0.420 0.190 rg 0 824 595 18 re f
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 800 Tm (Analista de Suporte Técnico | rmc tecnologia) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 786 Tm (jun/2017 - ago/2018 | Brasília, DF) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 776 Tm (Atuação em suporte técnico e atendimento a incidentes, com foco em ambientes Microsoft, resolução de) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 766 Tm (problemas e sustentação de infraestrutura para operação diária.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 756 Tm (- Suporte técnico) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 746 Tm (- Tecnologias Microsoft) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 736 Tm (- Resolução de problemas) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 726 Tm (- Atendimento a usuários) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 716 Tm (- Sustentação de ambiente) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 703 Tm (Suporte técnico | JCGontijo Engenharia S.A) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 689 Tm (dez/2016 - fev/2017 | Brasília, DF) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 679 Tm (Atuação em suporte técnico voltado à rotina corporativa, resolução de incidentes, suporte a usuários e) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 669 Tm (manutenção da operação de TI.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 659 Tm (- Suporte ao usuário) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 649 Tm (- Resolução de incidentes) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 639 Tm (- Rotina corporativa de TI) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 629 Tm (- Manutenção operacional) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 616 Tm (Analista de Suporte Técnico | rmc tecnologia) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 602 Tm (nov/2016 - dez/2016 | Brasília, DF) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 592 Tm (Atuação em suporte técnico com foco em ambientes Microsoft, atendimento a chamados e resolução de) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 582 Tm (problemas para continuidade da operação.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 572 Tm (- Suporte técnico) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 562 Tm (- Tecnologias Microsoft) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 552 Tm (- Atendimento a chamados) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 542 Tm (- Resolução de problemas) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 529 Tm (Soldado - Auxiliar de Suporte TI | Exército Brasileiro) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 515 Tm (mar/2015 - ago/2016 | Brasília, DF) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 505 Tm (Atuação em suporte de TI dentro de ambiente institucional, com foco em suporte técnico, organização) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 495 Tm (operacional e atendimento a demandas de infraestrutura e usuários.) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 485 Tm (- Suporte técnico institucional) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 475 Tm (- Tecnologias Microsoft) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 465 Tm (- Resolução de problemas) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 455 Tm (- Rotina operacional de TI) Tj ET
-0.850 0.420 0.190 rg 42 430 5 14 re f
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 436 Tm (FORMAÇÃO ACADÊMICA) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 420 Tm (Graduação em Análise e Desenvolvimento de Sistemas | IESB) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 406 Tm (2015 - 2019) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 396 Tm (Instituto de Educação Superior de Brasília) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 383 Tm (Pós-graduação em Segurança da Informação | Faculdade Bookplay) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 369 Tm (jan/2025 - dez/2025) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 359 Tm (Especialização voltada à proteção de ambientes, gestão de riscos, boas práticas de segurança e) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 349 Tm (fortalecimento da governança em tecnologia.) Tj ET
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 42 336 Tm (Formação Técnica / Empreendedorismo | Escola Técnica de Ceilândia) Tj ET
-BT 0.850 0.420 0.190 rg /F2 8 Tf 1 0 0 1 42 322 Tm (27/02/2012 - 24/04/2012 | 140h) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 312 Tm (Formação técnica voltada a empreendedorismo, fundamentos de informática e aplicação prática de tecnologia) Tj ET
-BT 0.100 0.120 0.160 rg /F1 8 Tf 1 0 0 1 42 302 Tm (em ambientes profissionais.) Tj ET
-0.850 0.420 0.190 rg 42 277 5 14 re f
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 283 Tm (CERTIFICAÇÕES E CURSOS) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 267 Tm (- Fortinet Networking Fundamentals) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 257 Tm (- 3CX Basic Engineer) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 247 Tm (- 3CX Advanced Engineer) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 237 Tm (- Cisco Cybersecurity) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 227 Tm (- AI Foundations) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 217 Tm (- DevOps Foundations) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 207 Tm (- Segurança da Informação) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 197 Tm (- Red Hat / OpenStack) Tj ET
-0.850 0.420 0.190 rg 42 172 5 14 re f
-BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 178 Tm (IDIOMAS) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 162 Tm (- Português: Nativo) Tj ET
-BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 152 Tm (- Inglês: Básico) Tj ET
-BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 442.6 20 Tm (Atualizado em 07/07/2026) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 797 Tm (Analista de Infraestrutura de TI | Menu Tecnologia) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 784 Tm (set/2018 - set/2021 | Brasília, DF) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 776 Tm (- Administrei ambientes Microsoft, redes, virtualização, Linux/BSD, Samba4 e Active Directory,) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 768 Tm (garantindo sustentação corporativa e controle operacional.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 760 Tm (- Sustentei VMware, Docker, bancos SQL/NoSQL, soluções de cluster e serviços críticos, contribuindo) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 752 Tm (para disponibilidade e confiabilidade.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 744 Tm (- Resolvi incidentes, automatizei rotinas e apoiei desenvolvimento, elevando a previsibilidade das) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 736 Tm (entregas e a estabilidade dos serviços.) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 725 Tm (Analista de Suporte Técnico | rmc tecnologia) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 712 Tm (jun/2017 - ago/2018 | Brasília, DF) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 704 Tm (- Atuei no atendimento técnico a usuários e serviços Microsoft, preservando continuidade das rotinas) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 696 Tm (corporativas.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 688 Tm (- Resolvi incidentes de estações, sistemas e serviços, contribuindo para estabilidade da operação) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 680 Tm (diária.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 672 Tm (- Apoiei sustentação do ambiente com foco em organização, comunicação técnica e resposta a demandas) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 664 Tm (recorrentes.) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 653 Tm (Suporte técnico | JCGontijo Engenharia S.A) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 640 Tm (dez/2016 - fev/2017 | Brasília, DF) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 632 Tm (- Realizei atendimento a usuários e resolução de incidentes, mantendo a rotina corporativa de TI em) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 624 Tm (funcionamento.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 616 Tm (- Apoiei manutenção operacional de equipamentos e serviços, contribuindo para continuidade das) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 608 Tm (atividades internas.) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 597 Tm (Analista de Suporte Técnico | rmc tecnologia) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 584 Tm (nov/2016 - dez/2016 | Brasília, DF) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 576 Tm (- Atendi chamados em ambientes Microsoft, priorizando resolução objetiva e continuidade da operação.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 568 Tm (- Apoiei usuários e serviços corporativos, fortalecendo a resposta técnica a problemas recorrentes.) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 557 Tm (Soldado - Auxiliar de Suporte TI | Exército Brasileiro) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 544 Tm (mar/2015 - ago/2016 | Brasília, DF) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 536 Tm (- Prestei suporte técnico institucional em tecnologias Microsoft, assegurando atendimento a usuários e) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 528 Tm (demandas internas.) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 520 Tm (- Apoiei a rotina operacional de TI, organização de demandas e resolução de problemas em ambiente) Tj ET
+BT 0.350 0.390 0.440 rg /F1 7 Tf 1 0 0 1 49 512 Tm (institucional.) Tj ET
+0.850 0.420 0.190 rg 42 489 5 14 re f
+BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 495 Tm (FORMAÇÃO ACADÊMICA) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 479 Tm (Graduação em Análise e Desenvolvimento de Sistemas | IESB) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 466 Tm (2015 - 2019) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 458 Tm (Instituto de Educação Superior de Brasília) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 447 Tm (Pós-graduação em Segurança da Informação | Faculdade Bookplay) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 434 Tm (jan/2025 - dez/2025) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 426 Tm (Especialização voltada à proteção de ambientes, gestão de riscos, boas práticas de segurança e) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 418 Tm (fortalecimento da governança em tecnologia.) Tj ET
+BT 0.160 0.190 0.240 rg /F2 8 Tf 1 0 0 1 42 407 Tm (Formação Técnica / Empreendedorismo | Escola Técnica de Ceilândia) Tj ET
+BT 0.850 0.420 0.190 rg /F2 7 Tf 1 0 0 1 42 394 Tm (27/02/2012 - 24/04/2012 | 140h) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 386 Tm (Formação técnica voltada a empreendedorismo, fundamentos de informática e aplicação prática de tecnologia) Tj ET
+BT 0.100 0.120 0.160 rg /F1 7 Tf 1 0 0 1 42 378 Tm (em ambientes profissionais.) Tj ET
+0.850 0.420 0.190 rg 42 355 5 14 re f
+BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 361 Tm (CERTIFICAÇÕES E CURSOS) Tj ET
+BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 42 345 Tm (Certificações: Fortinet Networking Fundamentals, 3CX Basic Engineer, 3CX Advanced Engineer, Cisco) Tj ET
+BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 42 335 Tm (Cybersecurity) Tj ET
+BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 42 325 Tm (Cursos: AI Foundations, Agents and Workflows, Applied AI Foundations, Claude 101, Claude Code 101, Email) Tj ET
+BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 42 315 Tm (Authentication Fundamentals, DevOps Foundations, Segurança da Informação, Red Hat / OpenStack) Tj ET
+0.850 0.420 0.190 rg 42 290 5 14 re f
+BT 0.160 0.190 0.240 rg /F2 9 Tf 1 0 0 1 54 296 Tm (IDIOMAS) Tj ET
+BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 280 Tm (- Português: Nativo) Tj ET
+BT 0.350 0.390 0.440 rg /F1 8 Tf 1 0 0 1 50 270 Tm (- Inglês: Básico) Tj ET
+BT 0.350 0.390 0.440 rg /F1 9 Tf 1 0 0 1 442.6 20 Tm (Atualizado em 15/07/2026) Tj ET
 endstream
 endobj
 5 0 obj
@@ -164,13 +169,13 @@ xref
 0000000015 00000 n 
 0000000112 00000 n 
 0000000214 00000 n 
-0000008012 00000 n 
-0000013892 00000 n 
-0000013955 00000 n 
-0000014091 00000 n 
-0000014227 00000 n 
+0000009136 00000 n 
+0000015342 00000 n 
+0000015405 00000 n 
+0000015541 00000 n 
+0000015677 00000 n 
 trailer
 << /Size 9 /Root 8 0 R >>
 startxref
-14276
+15726
 %%EOF

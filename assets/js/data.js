@@ -82,7 +82,7 @@ window.siteData = {
       },
       {
         "name": "BSD/Linux/Unix",
-        "level": 2,
+        "level": 3,
         "max": 4
       },
       {
@@ -92,7 +92,7 @@ window.siteData = {
       },
       {
         "name": "Databases",
-        "level": 1,
+        "level": 3,
         "max": 4
       }
     ],
@@ -113,21 +113,57 @@ window.siteData = {
     "items": [
       {
         "icon": "fas fa-coffee",
-        "value": 32,
-        "suffix": "",
+        "value": 100,
+        "suffix": "+",
         "label": "Copos de Café"
       },
       {
         "icon": "fas fa-code",
         "value": 999,
-        "suffix": "",
+        "suffix": "+",
         "label": "Linhas de Código"
       },
       {
         "icon": "fas fa-server",
         "value": 300,
         "suffix": "+",
-        "label": "Servidores Instalados"
+        "label": "Servidores Implantados"
+      },
+      {
+        "icon": "fas fa-bolt",
+        "value": 89,
+        "suffix": "+",
+        "label": "Energéticos"
+      },
+      {
+        "icon": "fas fa-users",
+        "value": 500,
+        "suffix": "+",
+        "label": "Dailies"
+      },
+      {
+        "icon": "far fa-calendar",
+        "value": 1750,
+        "suffix": "+",
+        "label": "Reuniões"
+      },
+      {
+        "icon": "fas fa-project-diagram",
+        "value": 10,
+        "suffix": "+",
+        "label": "Projetos Entregues"
+      },
+      {
+        "icon": "fas fa-code-branch",
+        "value": 345,
+        "suffix": "+",
+        "label": "Commits Realizados"
+      },
+      {
+        "icon": "fas fa-code-branch",
+        "value": 10,
+        "suffix": "+",
+        "label": "Branches Criadas"
       }
     ]
   },
@@ -178,8 +214,44 @@ window.siteData = {
   },
   "certificates_showcase": {
     "title": "Certificados",
-    "subtitle": "Cursos e certificações recentes em inteligência artificial, automação e autenticação de e-mail.",
+    "subtitle": "Cursos e certificações recentes em inteligência artificial, cibersegurança, telefonia, desenvolvimento e autenticação de e-mail.",
     "items": [
+      {
+        "title": "Introduction to Cybersecurity",
+        "issuer": "Cisco Networking Academy",
+        "image": "assets/images/certificates/previews/i2csupdate20260714-20-cj8lh2.png",
+        "file": "assets/images/certificates/I2CSUpdate20260714-20-cj8lh2.pdf"
+      },
+      {
+        "title": "Redes Industriais Seguras OT/ICS",
+        "issuer": "IBSEC",
+        "image": "assets/images/certificates/PT-IC-OTICS-460.png",
+        "file": "assets/images/certificates/PT-IC-OTICS-460.png"
+      },
+      {
+        "title": "3CX Advanced Certified Engineer V20",
+        "issuer": "3CX",
+        "image": "assets/images/certificates/previews/3cx-advanced-certified-engineer-v20-wesley-rossetti.png",
+        "file": "assets/images/certificates/3CX Advanced Certified Engineer V20 Wesley Rossetti.pdf"
+      },
+      {
+        "title": "3CX Basic Certified Engineer V20",
+        "issuer": "3CX",
+        "image": "assets/images/certificates/previews/3cx-basic-certified-engineer-v20-wesley-rossetti.png",
+        "file": "assets/images/certificates/3CX Basic Certified Engineer V20 Wesley Rossetti.pdf"
+      },
+      {
+        "title": "Full Cycle Tech Week IA for Devs",
+        "issuer": "Full Cycle",
+        "image": "assets/images/certificates/wesleyzinho95@gmail.com.png",
+        "file": "assets/images/certificates/wesleyzinho95@gmail.com.png"
+      },
+      {
+        "title": "Curso de Laravel 10 Gratuito",
+        "issuer": "EspecializaTi Academy",
+        "image": "assets/images/certificates/previews/especializati-academy.png",
+        "file": "assets/images/certificates/EspecializaTi Academy.pdf"
+      },
       {
         "title": "AI Foundations",
         "issuer": "OpenAI Academy",
@@ -215,6 +287,12 @@ window.siteData = {
         "issuer": "PowerDMARC",
         "image": "assets/images/certificates/previews/powerdmarc-email-authentication-fundamentals.png",
         "file": "assets/images/certificates/powerdmarc-email-authentication-fundamentals.pdf"
+      },
+      {
+        "title": "Email Authentication Advanced",
+        "issuer": "PowerDMARC",
+        "image": "assets/images/certificates/previews/certificate-email-authentication-advanced.png",
+        "file": "assets/images/certificates/certificate-email-authentication-advanced.pdf"
       }
     ]
   },
@@ -223,48 +301,123 @@ window.siteData = {
     "subtitle": "Especialista em Infraestrutura, Cloud, DevOps, Kubernetes, Automação, Alta Disponibilidade e Segurança da Informação.",
     "technical_skills_title": "Competências Técnicas",
     "technical_skills": [
-      "Linux",
-      "Windows Server",
-      "Active Directory",
-      "Azure",
-      "AWS",
-      "Oracle Cloud Infrastructure",
-      "Docker",
-      "Kubernetes",
-      "Rancher",
-      "GitLab",
-      "CI/CD",
-      "Ansible",
-      "Terraform",
-      "Bash",
-      "PowerShell",
-      "Python",
-      "Prometheus",
-      "Grafana",
-      "Zabbix",
-      "GLPI",
-      "pfSense",
-      "NGINX",
-      "Apache",
-      "MySQL",
-      "PostgreSQL",
-      "MariaDB",
-      "Redis",
-      "VMware",
-      "Hyper-V",
-      "Proxmox",
-      "Backup",
+      {
+        "category": "Cloud",
+        "items": [
+          "Azure",
+          "AWS",
+          "Oracle Cloud Infrastructure"
+        ]
+      },
+      {
+        "category": "Containers",
+        "items": [
+          "Docker",
+          "Kubernetes",
+          "Rancher"
+        ]
+      },
+      {
+        "category": "Automação e DevOps",
+        "items": [
+          "Terraform",
+          "Ansible",
+          "GitLab",
+          "CI/CD",
+          "Bash",
+          "PowerShell",
+          "Python"
+        ]
+      },
+      {
+        "category": "Infraestrutura",
+        "items": [
+          "Linux",
+          "Windows Server",
+          "Active Directory",
+          "VMware",
+          "Hyper-V",
+          "Proxmox",
+          "GLPI"
+        ]
+      },
+      {
+        "category": "Monitoramento",
+        "items": [
+          "Prometheus",
+          "Grafana",
+          "Zabbix",
+          "Logging"
+        ]
+      },
+      {
+        "category": "Banco de Dados",
+        "items": [
+          "MySQL",
+          "PostgreSQL",
+          "MariaDB",
+          "Redis",
+          "MongoDB",
+          "SQL Server"
+        ]
+      },
+      {
+        "category": "Rede",
+        "items": [
+          "DNS",
+          "DHCP",
+          "VPN",
+          "Firewall",
+          "Cloudflare",
+          "pfSense",
+          "NGINX",
+          "Apache"
+        ]
+      },
+      {
+        "category": "Segurança",
+        "items": [
+          "Segurança da Informação",
+          "Backup",
+          "Disaster Recovery",
+          "ISO 27001",
+          "ITIL",
+          "Alta Disponibilidade"
+        ]
+      }
+    ],
+    "security_skills_title": "Competências em Segurança da Informação",
+    "security_skills": [
+      "Backup corporativo",
       "Disaster Recovery",
-      "DNS",
-      "DHCP",
-      "VPN",
-      "Firewall",
+      "Active Directory",
+      "Firewalls",
+      "pfSense",
       "Cloudflare",
-      "Segurança da Informação",
-      "ISO 27001",
-      "ITIL",
-      "Automação",
-      "Alta Disponibilidade"
+      "Segurança de infraestrutura"
+    ],
+    "highlight_projects_title": "Projetos de Destaque",
+    "highlight_projects": [
+      {
+        "title": "Implantação e Administração de Ambientes Kubernetes",
+        "description": "Implantação, administração e sustentação de containers e Kubernetes em produção, com foco em padronização, escalabilidade e confiabilidade operacional."
+      },
+      {
+        "title": "Infraestrutura Cloud e On-Premises",
+        "description": "Atuação em ambientes híbridos, integrando recursos cloud e on-premises para alta disponibilidade, continuidade operacional e sustentação corporativa."
+      },
+      {
+        "title": "Automação e DevOps",
+        "description": "Automação de rotinas, apoio a pipelines CI/CD e scripts operacionais para reduzir atividades manuais e aumentar a previsibilidade das implantações."
+      },
+      {
+        "title": "Monitoramento e Observabilidade",
+        "description": "Monitoramento com Prometheus, Grafana, Zabbix e logging para resposta rápida a incidentes, estabilidade de serviços e acompanhamento de ambientes críticos."
+      },
+      {
+        "title": "Backup e Recuperação de Desastres",
+        "description": "Sustentação de backup corporativo, storage e práticas de Disaster Recovery para fortalecer continuidade operacional e recuperação de serviços."
+      }
     ],
     "education_title": "Formação Acadêmica",
     "education": [
@@ -296,9 +449,10 @@ window.siteData = {
         "location": "Remoto",
         "description": "Atuação em consultoria, implantação, administração e sustentação de infraestrutura on-premises e cloud, com foco em alta disponibilidade, segurança, performance e escalabilidade.",
         "items": [
-          "Implantei e administrei ambientes críticos de produção com Linux, Windows, virtualização, containers e Kubernetes.",
-          "Automatizei processos operacionais e apoiei pipelines CI/CD, observabilidade, storage, backup e recuperação de desastres.",
-          "Monitorei serviços com Prometheus, Grafana e logging, atuando em troubleshooting avançado e continuidade operacional."
+          "Implantei e administrei plataformas críticas com Linux, Windows, virtualização, containers e Kubernetes, reforçando disponibilidade, escalabilidade e confiabilidade em produção.",
+          "Automatizei rotinas operacionais e apoiei pipelines CI/CD, aumentando a padronização das implantações e reduzindo atividades manuais.",
+          "Sustentei observabilidade, storage, backup e Disaster Recovery, fortalecendo continuidade operacional, segurança e resposta a incidentes.",
+          "Monitorei serviços com Prometheus, Grafana e logging, acelerando troubleshooting avançado e estabilização de ambientes críticos."
         ]
       },
       {
@@ -308,9 +462,9 @@ window.siteData = {
         "location": "Presencial - Brasília, DF",
         "description": "Atuação em ambiente crítico hospitalar, em regime de plantão de 12 horas, com foco em disponibilidade, suporte avançado e continuidade operacional.",
         "items": [
-          "Sustentei infraestrutura on-premises, sistemas críticos de saúde e ambiente Tasy.",
-          "Monitorei e respondi a incidentes com Zabbix, Nagios e Cacti.",
-          "Documentei processos, apoiei equipes multidisciplinares e resolvi incidentes para manter a operação hospitalar."
+          "Sustentei plataforma on-premises, sistemas críticos de saúde e ambiente Tasy, priorizando disponibilidade e continuidade do atendimento hospitalar.",
+          "Monitorei e respondi a incidentes com Zabbix, Nagios e Cacti, apoiando estabilidade operacional em regime de plantão.",
+          "Documentei processos e colaborei com equipes multidisciplinares, reduzindo dependência operacional e melhorando a rastreabilidade das ações técnicas."
         ]
       },
       {
@@ -320,9 +474,9 @@ window.siteData = {
         "location": "Brasília, DF",
         "description": "Atuação em infraestrutura de TI com foco em operação, suporte e administração de ambientes corporativos, incluindo tecnologias Microsoft, resolução de incidentes, sustentação de serviços críticos, comunicação e marketing na área de TI.",
         "items": [
-          "Administrei ambientes Microsoft, Linux/BSD, Samba4, Active Directory, redes e virtualização com VMware.",
-          "Sustentei Docker, bancos SQL/NoSQL, soluções de cluster e ambientes heterogêneos.",
-          "Automatizei rotinas, apoiei desenvolvimento e suporte, e resolvi incidentes de infraestrutura corporativa."
+          "Administrei plataformas Microsoft, Linux/BSD, Samba4, Active Directory, redes e VMware, mantendo serviços corporativos disponíveis e seguros.",
+          "Sustentei Docker, bancos SQL/NoSQL e soluções de cluster, apoiando escalabilidade e confiabilidade de ambientes heterogêneos.",
+          "Automatizei rotinas, apoiei desenvolvimento e resolvi incidentes complexos, melhorando padronização e continuidade operacional."
         ]
       },
       {
@@ -332,9 +486,9 @@ window.siteData = {
         "location": "Brasília, DF",
         "description": "Responsável pela operação e suporte de infraestrutura, com forte atuação em ambientes Microsoft, atendimento a incidentes, manutenção de serviços e estabilidade operacional.",
         "items": [
-          "Administrei infraestrutura, ambientes Microsoft, redes, virtualização, Linux/BSD, Samba4 e Active Directory.",
-          "Sustentei VMware, Docker, bancos SQL/NoSQL, soluções de cluster e serviços corporativos.",
-          "Resolvi incidentes, automatizei rotinas e apoiei desenvolvimento, suporte e estabilidade operacional."
+          "Administrei ambientes Microsoft, redes, virtualização, Linux/BSD, Samba4 e Active Directory, garantindo sustentação corporativa e controle operacional.",
+          "Sustentei VMware, Docker, bancos SQL/NoSQL, soluções de cluster e serviços críticos, contribuindo para disponibilidade e confiabilidade.",
+          "Resolvi incidentes, automatizei rotinas e apoiei desenvolvimento, elevando a previsibilidade das entregas e a estabilidade dos serviços."
         ]
       },
       {
@@ -344,11 +498,9 @@ window.siteData = {
         "location": "Brasília, DF",
         "description": "Atuação em suporte técnico e atendimento a incidentes, com foco em ambientes Microsoft, resolução de problemas e sustentação de infraestrutura para operação diária.",
         "items": [
-          "Suporte técnico",
-          "Tecnologias Microsoft",
-          "Resolução de problemas",
-          "Atendimento a usuários",
-          "Sustentação de ambiente"
+          "Atuei no atendimento técnico a usuários e serviços Microsoft, preservando continuidade das rotinas corporativas.",
+          "Resolvi incidentes de estações, sistemas e serviços, contribuindo para estabilidade da operação diária.",
+          "Apoiei sustentação do ambiente com foco em organização, comunicação técnica e resposta a demandas recorrentes."
         ]
       },
       {
@@ -358,10 +510,8 @@ window.siteData = {
         "location": "Brasília, DF",
         "description": "Atuação em suporte técnico voltado à rotina corporativa, resolução de incidentes, suporte a usuários e manutenção da operação de TI.",
         "items": [
-          "Suporte ao usuário",
-          "Resolução de incidentes",
-          "Rotina corporativa de TI",
-          "Manutenção operacional"
+          "Realizei atendimento a usuários e resolução de incidentes, mantendo a rotina corporativa de TI em funcionamento.",
+          "Apoiei manutenção operacional de equipamentos e serviços, contribuindo para continuidade das atividades internas."
         ]
       },
       {
@@ -371,10 +521,8 @@ window.siteData = {
         "location": "Brasília, DF",
         "description": "Atuação em suporte técnico com foco em ambientes Microsoft, atendimento a chamados e resolução de problemas para continuidade da operação.",
         "items": [
-          "Suporte técnico",
-          "Tecnologias Microsoft",
-          "Atendimento a chamados",
-          "Resolução de problemas"
+          "Atendi chamados em ambientes Microsoft, priorizando resolução objetiva e continuidade da operação.",
+          "Apoiei usuários e serviços corporativos, fortalecendo a resposta técnica a problemas recorrentes."
         ]
       },
       {
@@ -384,10 +532,8 @@ window.siteData = {
         "location": "Brasília, DF",
         "description": "Atuação em suporte de TI dentro de ambiente institucional, com foco em suporte técnico, organização operacional e atendimento a demandas de infraestrutura e usuários.",
         "items": [
-          "Suporte técnico institucional",
-          "Tecnologias Microsoft",
-          "Resolução de problemas",
-          "Rotina operacional de TI"
+          "Prestei suporte técnico institucional em tecnologias Microsoft, assegurando atendimento a usuários e demandas internas.",
+          "Apoiei a rotina operacional de TI, organização de demandas e resolução de problemas em ambiente institucional."
         ]
       }
     ],
@@ -398,9 +544,32 @@ window.siteData = {
       "3CX Advanced Engineer",
       "Cisco Cybersecurity",
       "AI Foundations",
-      "DevOps Foundations",
-      "Segurança da Informação",
-      "Red Hat / OpenStack"
+      "Segurança da Informação"
+    ],
+    "certification_groups": [
+      {
+        "title": "Certificações",
+        "items": [
+          "Fortinet Networking Fundamentals",
+          "3CX Basic Engineer",
+          "3CX Advanced Engineer",
+          "Cisco Cybersecurity"
+        ]
+      },
+      {
+        "title": "Cursos",
+        "items": [
+          "AI Foundations",
+          "Agents and Workflows",
+          "Applied AI Foundations",
+          "Claude 101",
+          "Claude Code 101",
+          "Email Authentication Fundamentals",
+          "DevOps Foundations",
+          "Segurança da Informação",
+          "Red Hat / OpenStack"
+        ]
+      }
     ],
     "languages_title": "Idiomas",
     "languages": [
@@ -490,7 +659,28 @@ window.siteData = {
             "label": "Lines of Code"
           },
           {
-            "label": "Installed Servers"
+            "label": "Deployed Servers"
+          },
+          {
+            "label": "Energy Drinks"
+          },
+          {
+            "label": "Dailies"
+          },
+          {
+            "label": "Meetings"
+          },
+          {
+            "label": "Delivered Projects"
+          },
+          {
+            "label": "Commits"
+          },
+          {
+            "label": "Merges"
+          },
+          {
+            "label": "Branches"
           }
         ]
       },
@@ -532,7 +722,7 @@ window.siteData = {
       },
       "certificates_showcase": {
         "title": "Certificates",
-        "subtitle": "Recent courses and certificates in artificial intelligence, automation and e-mail authentication."
+        "subtitle": "Recent courses and certificates in artificial intelligence, cybersecurity, telephony, development and e-mail authentication."
       },
       "resume": {
         "title": "Resume",

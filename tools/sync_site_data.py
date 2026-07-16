@@ -81,6 +81,19 @@ def bullet_lines(items):
     return [f"- {compact_spaces(item)}" for item in items if compact_spaces(item)]
 
 
+def skill_group_lines(groups):
+    lines = []
+    for group in groups or []:
+        if isinstance(group, str):
+            lines.append(compact_spaces(group))
+            continue
+        category = compact_spaces(group.get("category"))
+        items = ", ".join(compact_spaces(item) for item in group.get("items", []) if compact_spaces(item))
+        if category and items:
+            lines.append(f"{category}: {items}")
+    return lines
+
+
 class PdfBuilder:
     def __init__(self, footer_text=""):
         self.pages = []
@@ -324,40 +337,58 @@ def build_resume_pdf(data):
 
     if resume.get("technical_skills"):
         pdf.section(resume.get("technical_skills_title", "Competências Técnicas"))
+        pdf.info_card_start(48)
+        for line in skill_group_lines(resume["technical_skills"]):
+            pdf.wrapped(line, size=7, leading=9, color=TEXT)
+        pdf.info_card_end()
+
+    if resume.get("security_skills"):
+        pdf.section(resume.get("security_skills_title", "Competências em Segurança da Informação"))
+        pdf.info_card_start(22)
+        pdf.wrapped(", ".join(resume["security_skills"]), size=7, leading=9, color=TEXT)
+        pdf.info_card_end()
+
+    if resume.get("highlight_projects"):
+        pdf.section(resume.get("highlight_projects_title", "Projetos de Destaque"))
         pdf.info_card_start(44)
-        pdf.wrapped(", ".join(resume["technical_skills"]), size=8, leading=10, color=TEXT)
+        for project in resume["highlight_projects"]:
+            title = compact_spaces(project.get("title"))
+            description = compact_spaces(project.get("description"))
+            pdf.wrapped(f"{title}: {description}", size=7, leading=9, color=TEXT)
         pdf.info_card_end()
 
     pdf.section("Atuação Atual")
-    pdf.info_card_start(42)
-    pdf.wrapped(f"{current['headline']} {current['company']}", size=9, font="F2", leading=12, color=ACCENT_DARK)
-    pdf.wrapped(current["description"], size=9, leading=12, color=TEXT)
+    pdf.info_card_start(24)
+    pdf.wrapped(f"{current['headline']} {current['company']}. {current['description']}", size=7, font="F2", leading=9, color=ACCENT_DARK)
     pdf.info_card_end()
 
     pdf.section("Experiência Profissional")
     for exp in resume["experience"]:
-        pdf.info_card_start(52)
-        pdf.subheading(f"{exp['title']} | {exp['company']}", size=9, color=ACCENT_DARK)
-        pdf.wrapped(f"{exp['period']} | {exp['location']}", size=8, font="F2", leading=10, color=ACCENT)
-        if compact_spaces(exp.get("description")):
-            pdf.wrapped(exp["description"], size=8, leading=10, color=TEXT)
+        pdf.info_card_start(40)
+        pdf.subheading(f"{exp['title']} | {exp['company']}", size=8, color=ACCENT_DARK)
+        pdf.wrapped(f"{exp['period']} | {exp['location']}", size=7, font="F2", leading=8, color=ACCENT)
         for item in bullet_lines(exp.get("items", [])):
-            pdf.wrapped(item, size=8, leading=10, indent=8, width=A4_WIDTH - LEFT - RIGHT - 16, color=TEXT_MUTED)
+            pdf.wrapped(item, size=7, leading=8, indent=7, width=A4_WIDTH - LEFT - RIGHT - 14, color=TEXT_MUTED)
         pdf.info_card_end()
 
     pdf.section("Formação Acadêmica")
     for edu in resume["education"]:
-        pdf.info_card_start(32)
-        pdf.subheading(f"{edu['degree']} | {edu['org']}", size=9, color=ACCENT_DARK)
-        pdf.wrapped(edu["period"], size=8, font="F2", leading=10, color=ACCENT)
-        pdf.wrapped(edu["description"], size=8, leading=10, color=TEXT)
+        pdf.info_card_start(24)
+        pdf.subheading(f"{edu['degree']} | {edu['org']}", size=8, color=ACCENT_DARK)
+        pdf.wrapped(edu["period"], size=7, font="F2", leading=8, color=ACCENT)
+        pdf.wrapped(edu["description"], size=7, leading=8, color=TEXT)
         pdf.info_card_end()
 
     if resume.get("certifications"):
         pdf.section(resume.get("certifications_title", "Certificações e Cursos"))
         pdf.info_card_start(38)
-        for item in bullet_lines(resume["certifications"]):
-            pdf.wrapped(item, size=8, leading=10, indent=8, width=A4_WIDTH - LEFT - RIGHT - 16, color=TEXT_MUTED)
+        if resume.get("certification_groups"):
+            for group in resume["certification_groups"]:
+                items = ", ".join(compact_spaces(item) for item in group.get("items", []) if compact_spaces(item))
+                pdf.wrapped(f"{group['title']}: {items}", size=8, leading=10, color=TEXT_MUTED)
+        else:
+            for item in bullet_lines(resume["certifications"]):
+                pdf.wrapped(item, size=8, leading=10, indent=8, width=A4_WIDTH - LEFT - RIGHT - 16, color=TEXT_MUTED)
         pdf.info_card_end()
 
     if resume.get("languages"):

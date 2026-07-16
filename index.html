@@ -32,7 +32,7 @@
 	<link href="assets/css/animate.css" rel="stylesheet">
 
 	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+	<link href="assets/css/style.css?v=20260707-7" rel="stylesheet" media="screen">
 </head>
 <body>
 
@@ -145,7 +145,7 @@
 					<div class="col-md-3 col-sm-12 wow bounceInLeft">
 						<h3 id="stats-title"></h3>
 					</div>
-					<!-- stat items injected by loader.js -->
+					<div class="stats-grid" id="stats-items"></div>
 				</div>
 			</div>
 		</section>
@@ -228,6 +228,26 @@
 					</div>
 					<div class="col-md-12">
 						<div class="resume-group" id="resume-technical-skills-items"></div>
+					</div>
+				</div>
+
+				<!-- Security skills -->
+				<div class="row resume-items" id="resume-security-skills-section">
+					<div class="col-md-12 wow bounceInLeft resume-section-heading">
+						<h3 id="resume-security-skills-title"></h3>
+					</div>
+					<div class="col-md-12">
+						<div class="resume-group" id="resume-security-skills-items"></div>
+					</div>
+				</div>
+
+				<!-- Highlight projects -->
+				<div class="row resume-items" id="resume-highlight-projects-section">
+					<div class="col-md-12 wow bounceInLeft resume-section-heading">
+						<h3 id="resume-highlight-projects-title"></h3>
+					</div>
+					<div class="col-md-12">
+						<div class="resume-group" id="resume-highlight-projects-items"></div>
 					</div>
 				</div>
 
@@ -333,9 +353,9 @@
 	<script src="assets/js/jquery.fitvids.js"></script>
 	<script src="assets/js/custom.js"></script>
 	<!-- Dados do site — edite data.json e rode: python3 tools/sync_site_data.py -->
-	<script src="assets/js/data.js"></script>
+	<script src="assets/js/data.js?v=20260707-3"></script>
 	<!-- Data loader — deve vir após data.js -->
-	<script src="assets/js/loader.js"></script>
+	<script src="assets/js/loader.js?v=20260707-6"></script>
 
 	<script>
 		/* Contact form — sends via Web3Forms (https://web3forms.com) */

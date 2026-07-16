@@ -145,20 +145,22 @@
 
   function populateStats(stats) {
     setText('stats-title', stats.title);
-    var row = document.getElementById('stats-row');
-    if (!row) return;
+    var grid = document.getElementById('stats-items');
+    if (!grid) return;
 
     var animations = ['bounceInDown', 'bounceInUp', 'bounceInRight'];
+    grid.innerHTML = '';
+
     stats.items.forEach(function (item, i) {
       var anim = animations[Math.min(i, animations.length - 1)];
       var div = document.createElement('div');
-      div.className = 'col-md-3 col-sm-4 wow ' + anim;
+      div.className = 'wow ' + anim;
       div.innerHTML =
         '<div class="stat"><div class="stat-icon">' +
         '<h2><i class="' + item.icon + '"></i>' +
         '<span class="timer" data-count="' + item.value + '"></span>' + item.suffix + '</h2>' +
         '</div><h3>' + item.label + '</h3></div>';
-      row.appendChild(div);
+      grid.appendChild(div);
     });
   }
 
@@ -241,10 +243,38 @@
 
     if (resume.technical_skills && resume.technical_skills.length) {
       setText('resume-technical-skills-title', resume.technical_skills_title);
-      setHTML('resume-technical-skills-items',
-        '<div class="resume-entry"><div class="resume-item wow bounceInRight">' +
-        '<p>' + resume.technical_skills.join(', ') + '</p>' +
-        '</div></div>');
+      var technicalHtml = '<div class="resume-entry"><div class="resume-item wow bounceInRight technical-skills-grid">';
+      resume.technical_skills.forEach(function (group) {
+        if (typeof group === 'string') {
+          technicalHtml += '<span class="skill-chip">' + group + '</span>';
+        } else {
+          technicalHtml += '<div class="skill-category"><h4>' + group.category + '</h4><p>' + group.items.join(', ') + '</p></div>';
+        }
+      });
+      technicalHtml += '</div></div>';
+      setHTML('resume-technical-skills-items', technicalHtml);
+    }
+
+    if (resume.security_skills && resume.security_skills.length) {
+      setText('resume-security-skills-title', resume.security_skills_title);
+      setHTML('resume-security-skills-items',
+        '<div class="resume-entry"><div class="resume-item wow bounceInRight"><ul>' +
+        resume.security_skills.map(function (item) { return '<li>' + item + '</li>'; }).join('') +
+        '</ul></div></div>');
+    }
+
+    if (resume.highlight_projects && resume.highlight_projects.length) {
+      setText('resume-highlight-projects-title', resume.highlight_projects_title);
+      setHTML('resume-highlight-projects-items',
+        resume.highlight_projects.map(function (project) {
+          return '<div class="resume-entry">' +
+            '<div class="resume-place wow bounceInLeft"><h4><i class="fas fa-project-diagram"></i> Projeto</h4></div>' +
+            '<div class="resume-item wow bounceInRight">' +
+              '<h4>' + project.title + '</h4>' +
+              '<p>' + project.description + '</p>' +
+            '</div>' +
+          '</div>';
+        }).join(''));
     }
 
     setText('resume-experience-title', resume.experience_title);
@@ -272,7 +302,17 @@
     });
     setHTML('resume-experience-items', expHtml);
 
-    if (resume.certifications && resume.certifications.length) {
+    if (resume.certification_groups && resume.certification_groups.length) {
+      setText('resume-certifications-title', resume.certifications_title);
+      setHTML('resume-certifications-items',
+        '<div class="resume-entry"><div class="resume-item wow bounceInRight certification-groups">' +
+        resume.certification_groups.map(function (group) {
+          return '<div class="certification-group"><h4>' + group.title + '</h4><ul>' +
+            group.items.map(function (item) { return '<li>' + item + '</li>'; }).join('') +
+            '</ul></div>';
+        }).join('') +
+        '</div></div>');
+    } else if (resume.certifications && resume.certifications.length) {
       setText('resume-certifications-title', resume.certifications_title);
       setHTML('resume-certifications-items',
         '<div class="resume-entry"><div class="resume-item wow bounceInRight"><ul>' +
